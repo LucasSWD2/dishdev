@@ -1,8 +1,43 @@
-body{
- background: black ;
+* {
+    margin: 0 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rubik-one');
+@media (max-width: 767px){
+ img {
+    width: 100%;
+    height: auto;
+ }
 
+ #footerText {
+    color: white;
+    font-family: Rubik-One, sans-serif;
+ }
+ #namen {
+    color: white;
+    font-family: Rubik-one, sans-serif;
+ }
 
+ footer {
+    display: flex;
+    background-color: #101010;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.8rem;
+    padding-bottom: 0.4rem;
+    gap: 1vh;
+ }
+ #footerLogoEnText {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
 
+ }
+
+body{
+    background-color: black ;
+}
+}
 
 
