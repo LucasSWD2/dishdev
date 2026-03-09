@@ -9,5 +9,8 @@
 
 <body>
     <header class="Header">
+        <section>
             <img scr="../images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+            <img scr="../images/Drie horizontale witte lijnen.png" alt="Lijn" class="Lijn"> 
+        </section>
     </header>

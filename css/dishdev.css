@@ -38,6 +38,32 @@
 body{
     background-color: black ;
 }
+
+
+    html{
+        background: black;
+        overflow-x: hidden;
+    }
+
+    .Logo {
+      position: absolute;
+      left: 0%;
+      width: 125px;
+      height: auto;
+    }
+
+    .Lijn {
+        
+        position: absolute;
+        left: 75%;
+        width: 90px;
+        height: auto;
+    }
+
+
+
+
 }
+
 
 

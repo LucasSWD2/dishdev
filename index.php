@@ -1,11 +1,6 @@
 <?php
 include "include/header.php";
 ?>
-iujhkjhjkh
-
-
-
-
 
 
 <footer>
