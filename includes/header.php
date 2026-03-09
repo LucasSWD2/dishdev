@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dishdev.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <section>
-            <img src="../images/logo_kleur_vlam_en_vlees.png" alt="Logo Vlam en Vlees">
-        </section>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Reservatie</a>
-            <a href="#">Menu</a>
-            <a href="#">Vacatures</a>
-            <a href="#">Openingstijden</a>
-        </nav>
+    <header class="Header">
+            <img scr="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
     </header>
 </body>
 </html>
