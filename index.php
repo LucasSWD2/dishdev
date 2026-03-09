@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        echo "hier komt de homepagina";
-    ?>
+
 </body>
 </html>
