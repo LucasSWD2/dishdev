@@ -4,21 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
- img {
+
+   body {
+   overflow-x: hidden;
+ }  
+   img {
     width: 100%;
     height: auto;
  }
 
- #footerText {
+   #footerText {
     color: white;
     font-family: Rubik-One, sans-serif;
  }
- #namen {
+   #namen {
     color: white;
     font-family: Rubik-one, sans-serif;
  }
 
- footer {
+   footer {
     display: flex;
     background-color: #101010;
     align-items: center;
@@ -27,7 +31,7 @@
     padding-bottom: 0.4rem;
     gap: 1vh;
  }
- #footerLogoEnText {
+   #footerLogoEnText {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,29 +39,19 @@
 
  }
 
-body{
-        background: #101010;
-}
-
-
-    html{
-        background: #101010;
-        overflow-x: hidden;
-    }
-
-    .Header {
-     
-       display: flex; 
-       gap: 20px
-
-            }
-
-    .Header img {
-
-        width: 110px;
-        
-
-    }
-
+   header {
+   Background-color: #101010;
+   flex-direction: column;
    }
 
+   #Headerlogos {
+
+   display: flex;
+   gap: 11.5rem ;
+   width: 25%;
+   padding-left: 10px;
+
+   
+   }
+
+}

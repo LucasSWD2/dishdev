@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <header class="Header">
-        <section>
+    <header>
+        <section id="Headerlogos">
             <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
             <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Lijn" class="Lijn"> 
         </section>
