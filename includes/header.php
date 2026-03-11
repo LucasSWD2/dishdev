@@ -7,6 +7,6 @@
     <header class="Header">
         <section>
             <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-            <img src="images/Drie horizontale witte lijnen.png" alt="Lijn" class="Lijn"> 
+            <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Lijn" class="Lijn"> 
         </section>
     </header>

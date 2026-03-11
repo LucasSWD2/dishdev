@@ -36,34 +36,28 @@
  }
 
 body{
-    background-color: #922C06;
+        background: #101010;
 }
 
 
     html{
-        background: black;
+        background: #101010;
         overflow-x: hidden;
     }
 
-    .Logo {
-      position: absolute;
-      left: 0%;
-      width: 125px;
-      height: auto;
-    }
+    .Header {
+     
+       display: flex; 
+       gap: 20px
 
-    .Lijn {
+            }
+
+    .Header img {
+
+        width: 110px;
         
-        position: absolute;
-        left: 75%;
-        width: 90px;
-        height: auto;
+
     }
 
-
-
-
-}
-
-
+   }
 
