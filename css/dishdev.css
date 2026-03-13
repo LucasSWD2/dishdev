@@ -5,6 +5,7 @@
 @import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
 
+
    body {
    overflow-x: hidden;
    background-color: #922C06;
@@ -16,7 +17,7 @@
  article {
 font-family: Rubik-One, sans-serif; }
 
-   #footerText {
+   .footerText {
     color: white;
     font-family: Rubik-One, sans-serif;
  }
@@ -154,5 +155,45 @@ font-family: Rubik-One, sans-serif; }
   grid-area: button4;
   justify-self: center;
 }
+
+}
+
+@media (min-width: 768px) {
+
+  * {
+    margin: 0 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+ }
+  footer {
+    display: flex;
+    background-color: #101010;
+    flex-direction: column;
+    justify-content: center;
+ }
+   #footerLogoEnText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #footerLogoEnText > section > img {
+  width: 15vw;
+  margin: 1vw;
+ }
+.footerText {
+    color: white;
+    font-family: Rubik-One, sans-serif;
+ }
+   #namen {
+    color: white;
+    font-family: Rubik-one, sans-serif;
+ }
+ #desktopVlam {
+  color: white;
+  font-family: Rubik-one, sans-serif;
+  size: 1rem;
+ }
 
 }
