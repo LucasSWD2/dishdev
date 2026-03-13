@@ -10,41 +10,41 @@
 include "includes/header.php";
 ?>
 <body>
-    <section>
-        <section>
-            <img>
+    <section class="gridCont">
+        <section id="naviImg1">
+            <img src="images/Reservatie foto.png" alt="foto reservatie">
             </section>
-            <article>
+            <article id="naviTekst1">
                 <h1>Reservatie</p>
             </article>
-            <section>
+            <section id="naviButton1">
                 <button>GO</button>
         </section>
-        <section>
-            <img>
+        <section id="naviImg2">
+            <img src="images/menu foto.png" alt="foto menu">
             </section>
-            <article>
+            <article id="naviTekst2">
                 <h1>Menu</p>
             </article>
-            <section>
+            <section id="naviButton2">
                 <button>GO</button>
         </section>
-        <section>
-            <img>
+        <section id="naviImg3">
+            <img src="images/Openingstijden foto.png" alt="foto openingstijden">
             </section>
-            <article>
+            <article id="naviTekst3">
                 <h1>Openingstijden</p>
             </article>
-            <section>
+            <section id="naviButton3">
                 <button>GO</button>
         </section>
-        <section>
-            <img>
+        <section id="naviImg4">
+            <img src="images/vacatures foto.png" alt="foto vacatures">
             </section>
-            <article>
+            <article id="naviTekst4">
                 <h1>Vacatures</p>
             </article>
-            <section>
+            <section id="naviButton4">
                 <button>GO</button>
         </section>
     </section>
