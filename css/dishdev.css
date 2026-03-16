@@ -56,3 +56,41 @@
    }
 
 }
+
+@media (min-width: 768px) {
+   body {
+   overflow-x: hidden;
+   background-color: #922C06;
+ }  
+
+  * {
+    margin: 0 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+ }
+  footer {
+    display: flex;
+    background-color: #101010;
+    flex-direction: column;
+    justify-content: center;
+ }
+   #footerLogoEnText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #footerLogoEnText > section > img {
+  width: 15vw;
+  margin: 1vw;
+ }
+.footerText {
+    color: white;
+    font-family: Rubik-One, sans-serif;
+ }
+   #namen {
+    color: white;
+    font-family: Rubik-one, sans-serif;
+ }
+}
