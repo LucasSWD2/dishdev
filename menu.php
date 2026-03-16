@@ -14,6 +14,19 @@ include "includes/header.php";
 <img src= "images/menu foto.png" class="menuimg" alt= "menuimg">
 <section>
 
+
+
+<h1>
+ STEAK
+ 
+ ZALM
+
+ BURGER
+
+ LUXE STEAK
+</h1>
+
+
   
         
 

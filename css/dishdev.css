@@ -55,4 +55,16 @@
    
    }
 
+   .menuimg {
+
+    display: flex;
+    width: 25%;
+
+   }
+
+   h1 {
+
+    color:white;
+   }
+
 }
