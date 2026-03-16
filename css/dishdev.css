@@ -7,6 +7,7 @@
 
    body {
    overflow-x: hidden;
+   background-color: #922C06 ;
  }  
    img {
     width: 100%;
@@ -44,7 +45,7 @@
    flex-direction: column;
    }
 
-   #Headerlogos {
+   #headerlogos {
 
    display: flex;
    gap: 11.5rem ;
