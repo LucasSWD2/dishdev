@@ -1,8 +1,9 @@
-
+<link rel="stylesheet" href="css/dishdev.css">
  <footer>
     <section id="footerLogoEnText">
         <section>
-            <p id="footerText">
+            <h1 class="footerText">Vlam & Vlees</h1>
+            <p class="footerText">
                 Promenade 12 <br>
                 2711 AB zoetemeer <br>
                 Email:info@vlamenvleeszoetermeer.nl<br>
@@ -17,3 +18,4 @@
         <p id="namen">Lucas & Kirubel</p>
 </section>
     </footer>
+
