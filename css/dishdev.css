@@ -82,7 +82,7 @@ font-family: Rubik-One, sans-serif; }
     background-color: #FFFEFE;
     margin: 5vw;
 }
-.gridCont > section > img {
+.gridCont > section > a > img {
   width: 80%;
   margin-left: 5vw;
 }
@@ -110,6 +110,11 @@ font-family: Rubik-One, sans-serif; }
   grid-area: button1;
   justify-self: center;
 }
+#desktopHomeText1 {
+  grid-area: button1;
+  justify-self: center;
+  display: none;
+}
 
 #naviImg2 {
   grid-area: img2;
@@ -124,6 +129,11 @@ font-family: Rubik-One, sans-serif; }
 #naviButton2 {
   grid-area: button2;
   justify-self: center;
+}
+#desktopHomeText2 {
+  grid-area: button1;
+  justify-self: center;
+  display: none;
 }
 
 #naviImg3 {
@@ -140,6 +150,11 @@ font-family: Rubik-One, sans-serif; }
   grid-area: button3;
   justify-self: center;
 }
+#desktopHomeText3 {
+  grid-area: button1;
+  justify-self: center;
+  display: none;
+}
 
 #naviImg4 {
   grid-area: img4;
@@ -155,10 +170,19 @@ font-family: Rubik-One, sans-serif; }
   grid-area: button4;
   justify-self: center;
 }
+#desktopHomeText4 {
+  grid-area: button1;
+  justify-self: center;
+  display: none;
+}
 
 }
 
 @media (min-width: 768px) {
+   body {
+   overflow-x: hidden;
+   background-color: #922C06;
+ }  
 
   * {
     margin: 0 0;
@@ -195,5 +219,142 @@ font-family: Rubik-One, sans-serif; }
   font-family: Rubik-one, sans-serif;
   size: 1rem;
  }
+ article {
+  font-family: Rubik-one, sans-serif;
+ }
+
+ .homeTextLink {
+  text-decoration: none;
+  color: #101010;
+  font-size: 1.2rem ;
+ }
+
+ .gridCont {
+  display: grid;
+  grid-template-areas: 
+    "img1 button1"
+    "img1 button1"
+    "tekst1 ."
+    "img2 button2"
+    "img2 button2"
+    "tekst2 ."
+    "img3 button3"
+    "img3 button3"
+    "tekst3 ."
+    "img4 button4"
+    "img4 button4"
+    "tekst4 .";
+
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: repeat(12, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    background-color: #FFFEFE;
+    margin: 5vw;
+}
+.gridCont > section > a > img {
+  width: 40vw;
+  margin-left: 5vw;
+}
+
+.gridCont > section > button {
+  width: 18vw;
+  height: 4vh;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: #922C06;
+  color: #FFFEFE;
+   font-family: Rubik-One, sans-serif;
+} 
+
+.gridCont > section {
+  width: 45vw;
+}
+.gridCont > article {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+#naviImg1 {
+  grid-area: img1;
+  justify-self: end;
+}
+
+#naviTekst1 {
+  grid-area: tekst1;
+  justify-self: center;
+}
+
+#naviButton1 {
+  display: none;
+}
+
+#desktopHomeText1 {
+  grid-area: button1;
+  justify-self: center;
+}
+
+
+#naviImg2 {
+  grid-area: img2;
+  justify-self: center;
+}
+
+#naviTekst2 {
+  grid-area: tekst2;
+  justify-self: center;
+}
+
+#naviButton2 {
+  grid-area: button2;
+  justify-self: center;
+  display: none;
+}
+
+#desktopHomeText2 {
+  grid-area: button2;
+  justify-self: center;
+}
+
+#naviImg3 {
+  grid-area: img3;
+  justify-self: center;
+}
+
+#naviTekst3 {
+  grid-area: tekst3;
+  justify-self: center;
+}
+
+#naviButton3 {
+  grid-area: button3;
+  justify-self: center;
+  display: none;
+}
+
+#desktopHomeText3 {
+  grid-area: button3;
+  justify-self: center;
+}
+
+#naviImg4 {
+  grid-area: img4;
+  justify-self: center;
+}
+
+#naviTekst4 {
+  grid-area: tekst4;
+  justify-self: center;
+}
+
+#naviButton4 {
+  grid-area: button4;
+  justify-self: center;
+  display: none;
+}
+#desktopHomeText4 {
+  grid-area: button4;
+  justify-self: center;
+}
 
 }
