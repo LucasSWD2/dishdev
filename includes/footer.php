@@ -9,7 +9,7 @@
                 Telefoonnummer:088-1321111
             </p>
         </section>
-        <section>
+        <section id= "Footerimg">
             <img src="images/footer image.png" alt="Foto Lunchroom">
         </section>
     </section>
