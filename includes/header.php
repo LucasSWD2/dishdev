@@ -10,12 +10,15 @@
 <body>
     <header>
         <section id="headerlogos">
-            <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-            <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png"  alt="Lijn" class="Lijn"> 
+    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+    <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png"
+     alt="Menu"
+     class="Lijn"
+     onclick="toggleMenu()">
         </section>
 
         <section id="Headernav">
-            <nav>
+            <nav id="navMenu">
     <a href="index.php">Home</a>
     <a href="Reservatie.php">Reservatie</a>
     <a href="Menu.php">Menu</a>
@@ -24,5 +27,7 @@
 
             </nav>
         </section>
+
+        
 
     </header>
