@@ -1,13 +1,13 @@
 * {
     margin: 0 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
 
    body {
    overflow-x: hidden;
-   background-color: #922C06 ;
  }  
    img {
     width: 100%;
@@ -48,49 +48,22 @@
    #headerlogos {
 
    display: flex;
-   gap: 11.5rem ;
+   gap: 14rem ;
    width: 25%;
    padding-left: 10px;
 
    
    }
 
-}
+   #footericons > img {
 
-@media (min-width: 768px) {
-   body {
-   overflow-x: hidden;
-   background-color: #922C06;
- }  
+    width: 30px;
+   }
 
-  * {
-    margin: 0 0;
+   #innerkleur {
+
+    background: white;
+    border: 2px solid #922C06;
+   }
+
   }
-  img {
-    width: 100%;
-    height: auto;
- }
-  footer {
-    display: flex;
-    background-color: #101010;
-    flex-direction: column;
-    justify-content: center;
- }
-   #footerLogoEnText {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
- #footerLogoEnText > section > img {
-  width: 15vw;
-  margin: 1vw;
- }
-.footerText {
-    color: white;
-    font-family: Rubik-One, sans-serif;
- }
-   #namen {
-    color: white;
-    font-family: Rubik-one, sans-serif;
- }
-}
