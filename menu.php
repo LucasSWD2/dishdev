@@ -17,6 +17,8 @@ include "includes/header.php";
 
 <section id="deskmenuimg">
 
+<h1>Menu</h1>
+
 <img src="images/Screenshot 2026-03-23 150056.png" class="deskmenuimg" alt="deskmenuimg">
 <img src="images/Schermafbeelding 2026-03-23 150501.png" class="deskmenuimg" alt="deskmenuimg">
 

@@ -240,7 +240,7 @@ font-size: 40px;
   grid-template-columns: repeat(3, 1fr);
   position: absolute;
   padding-left: 2%;
-  bottom: 9%;
+  bottom: 3%;
 }
 
 #deskmenunamen2 { 
@@ -249,7 +249,7 @@ font-size: 40px;
   position: absolute;
   padding-left: 1%;
   left: 50%;
-  bottom: 19%;
+  bottom: 12%;
 }
 
 #deskmenunamen3 {
@@ -259,7 +259,7 @@ font-size: 40px;
   position: absolute;
   padding-bottom: 10px;
   padding-left: 2%;
-  bottom: -15%;
+  bottom: -20%;
 }
 
 
@@ -271,5 +271,15 @@ display: none;
 } 
 
    }
+
+#deskmenuimg > h1 {
+
+  position: absolute;
+  top: 47%;
+  left: 47%;
+  font-family: Rubik-One, sans-serif ;
+  font-size: 40px;
+
+}
 
  
