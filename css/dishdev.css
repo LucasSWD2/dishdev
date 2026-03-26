@@ -1,12 +1,14 @@
 * {
     margin: 0 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
 
    body {
    overflow-x: hidden;
+   background-color: #922C06;
  }  
    img {
     width: 100%;
@@ -54,32 +56,6 @@
    
    }
 
-     .Lijn {
-    display: block;
-  }
-
-  #navMenu {
-    display: none;
-    flex-direction: column;
-    background-color: #111;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    padding: 15px;
-  }
-
-  #navMenu a {
-    color: white;
-    padding: 10px;
-    border-bottom: 1px solid #444;
-  }
-
-  #navMenu.active {
-    display: flex;
-  }
-
- 
 
    .menuimg {
     
@@ -87,8 +63,11 @@
     width: 80%;
     height: 150px;
     padding: 45px;
-    border-radius: 25%;
    }
+
+ #menucont > .menuimg {
+  border-radius: 10px;
+ }
 
    #bodykleur {
 
@@ -131,6 +110,11 @@
 
     position: relative;
     top: -50px;
+   }
+
+   #footericons > img {
+
+    width: 30px;
    }
 
    #Headernav {
@@ -179,7 +163,7 @@
 
     header {
    Background-color: #101010;
-   height: 7rem;
+   height: 5rem;
    display: flex;
    justify-items: center;
    
@@ -198,7 +182,7 @@
    #headerlogos > img {
     margin-left: 25px; 
     width: 110px; 
-    margin-top: 15px;
+    margin-top: -2px;
    }
 
    footer {
@@ -208,8 +192,8 @@
 
    #Headernav > nav {
     position: relative;
-    left: 60%;
-    top: 22%;
+    left: 65%;
+    top: 10%;
 
 
    }
@@ -230,12 +214,18 @@
   border-radius: 5px;
 }
 
+#Footerimg {
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
 
    #Footerimg > img {
-    position: relative;
-    left: 88%;
-    margin: 20px;
     width: 10%;
+    margin-top: 75px;
+    margin-right: 50px;
    }
 
    #footerText {
@@ -252,7 +242,7 @@
     font-family: Rubik-One, sans-serif ;
     position: relative;
     font-size: 20px;
-    left: 45%;
+    left: 46%;
     bottom: 20px;
    }
 
@@ -329,12 +319,27 @@ display: none;
 
   position: absolute;
   top: 47%;
-  left: 47%;
+  left: 46%;
   font-family: Rubik-One, sans-serif ;
-  font-size: 40px;
+  font-size: 45px;
 
 }
 
+#footericons {
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2.5rem ;
+  gap: 20px;
+}
+
+#footericons > img {
+  width: 3%;
+  
+
    }
+
+  }
 
  

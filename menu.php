@@ -12,8 +12,6 @@ include "includes/header.php";
 
 <body>
 
-<script src="hamburger.js"></script>
-
 
 <section id="bodykleur">
 
@@ -35,7 +33,7 @@ include "includes/header.php";
 
 
 
-
+<section id ="menucont">
 
 <img src= "images/menu foto.png" class="menuimg" alt= "menuimg">
 
@@ -113,6 +111,8 @@ include "includes/header.php";
 <strong>LUXE ZALM</strong> <strong>-100€</strong>
 <p>Selecte zalmfilet, zijdezacht en elegant van smaak, verfijnd bereid.</p>
 </article>
+
+</section>
 
 </section>
 
