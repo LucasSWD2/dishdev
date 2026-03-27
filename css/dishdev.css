@@ -134,14 +134,16 @@
    }
 
 
+   .menu {
+    display: none;
+   }
+
   }
 
 
 
 
    @media (min-width: 768px){
-
-  
 
     body {
       background: #922C06;
@@ -226,7 +228,7 @@
 
 
    #Footerimg > img {
-    width: 10%;
+    width: 15%;
     margin-top: 75px;
     margin-right: 50px;
    }
@@ -235,7 +237,7 @@
     color: white;
     font-family: Rubik Mono One, sans-serif;
     margin: 30px;
-    font-size: 30px ;
+    font-size: 25px ;
     position: absolute;
 
    }
@@ -270,44 +272,72 @@
     border-radius: 20px;
 }
 
+#deskmenuimg2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 70rem;
+
+}
+
+#deskmenuimg2 > img {
+    width: 98%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 20px;
+}
+
 #mencontent , #menunamen , #menunamen2 {
   display:none;
 }
 
-#deskmenunamen1 , #deskmenunamen2 , #deskmenunamen3 {
-
-font-family: Rubik Mono One, sans-serif;
-font-size: 25px;
-
-}
-
-
-#deskmenunamen1 {
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  position: absolute;
-  padding-left: 9%;
-  top: 60%;
-}
-
-#deskmenunamen2 { 
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  position: absolute;
-  padding-left: 20%;
-  left: 30%;
-  bottom: -14.5%;
-}
-
+#deskmenunamen1,
+#deskmenunamen2,
 #deskmenunamen3 {
+  position: static !important;
+  display: block !important;
+}
 
+
+.menu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.menu > section > span {
+  font-size: 25px;
+}
+
+
+.menu section {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.naam {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 16px;
+}
+
+
+.prijs {
   position: absolute;
-  padding-bottom: 10px;
-  padding-left: 9%;
-  bottom: -56%;
+  right: 15px;
+  top: 15px;
+  font-weight: bold;
+}
+
+
+.menu p {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
 }
 
 
@@ -317,16 +347,6 @@ display: none;
 } 
 
    
-
-#deskmenuimg > h1 {
-
-  position: absolute;
-  top: 47%;
-  left: 46%;
-  font-family: Rubik-One, sans-serif ;
-  font-size: 45px;
-
-}
 
 #footericons {
 
@@ -342,6 +362,13 @@ display: none;
   
 
    }
+
+  #menutitle {
+    display: flex;
+    justify-self: center;
+    font-size: 35px;
+     font-family: 'Rubik Mono One', sans-serif;
+  }
 
   }
 
