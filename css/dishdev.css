@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rubik-one');
+
 * {
     margin: 0 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
 
    body {
@@ -17,11 +18,13 @@
 
    #footerText {
     color: white;
-    font-family: Rubik-One, sans-serif;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 10px;
  }
    #namen {
     color: white;
-    font-family: Rubik-one, sans-serif;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 10px;
  }
 
    footer {
@@ -80,7 +83,7 @@
    #menunamen {
 
     color: black;
-    font-family: Rubik-One, sans-serif;
+    font-family: Rubik Mono One, sans-serif;
     line-height: 200px;
     margin-left: 20px;
 
@@ -91,18 +94,19 @@
     font-size: 20px;
     line-height: 20px;
     word-spacing: 0px;
+    font-size: 15px;
    }
 
    #menunamen2 {
 
     color:black;
-    font-family: Rubik-One, sans-serif;
+    font-family: Rubik Mono One, sans-serif;
     margin-left: 20px;
 
    }
 
    #menunamen2 p {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 50px;
    }
 
@@ -171,10 +175,9 @@
 
    #Headernav > nav > a {
     color: white;
-    margin-right: 50px;
     text-decoration: none ;
-    font-family: Rubik-One, sans-serif ;
-    font-size: 35px;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 30px;
   
    }
 
@@ -192,7 +195,7 @@
 
    #Headernav > nav {
     position: relative;
-    left: 65%;
+    left: 47%;
     top: 10%;
 
 
@@ -230,7 +233,7 @@
 
    #footerText {
     color: white;
-    font-family: Rubik-One, sans-serif ;
+    font-family: Rubik Mono One, sans-serif;
     margin: 30px;
     font-size: 30px ;
     position: absolute;
@@ -239,10 +242,10 @@
 
    #namen {
     color: white;
-    font-family: Rubik-One, sans-serif ;
+    font-family: Rubik Mono One, sans-serif;
     position: relative;
     font-size: 20px;
-    left: 46%;
+    left: 45%;
     bottom: 20px;
    }
 
@@ -273,8 +276,8 @@
 
 #deskmenunamen1 , #deskmenunamen2 , #deskmenunamen3 {
 
-font-family: Rubik-One, sans-serif ;
-font-size: 35px;
+font-family: Rubik Mono One, sans-serif;
+font-size: 25px;
 
 }
 
