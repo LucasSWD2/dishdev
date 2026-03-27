@@ -9,41 +9,64 @@
 <?php
 include "includes/header.php";
 ?>
-<section id="innerkleur">
 
 <body>
 
+<section id="innerkleur">
 
+<img src="images/Schermafbeelding 2026-03-27 202020.png" class="reserveimg" alt="reservering">
+
+<section id="placeholders">
+
+<section class="naam"> 
+    <label>Naam:</label>
+    <input type="text" placeholder="">
+
+</section>
+
+<section class="telefoon"> 
+    <label>Telefoon:</label>
+    <input type="text" placeholder="">
+
+</section>
+
+<section class="email"> 
+    <label>Email:</label>
+    <input type="text" placeholder="">
+
+</section>
+
+<section class="aantal"> 
+    <label>Aantal:</label>
+    <input type="number" placeholder="">
+
+</section>
+
+<section class="datum"> 
+    <label>Datum:</label>
+    <input type="date" placeholder="">
+</section>
+
+<section class="tijd"> 
+    <label>Tijd:</label>
+    <input type="time" placeholder="">
+</section>
+
+<section class="opmerkingen"> 
+    <label>Eventueele opmerkingen:</label>
+    <input type="text" placeholder="">
+
+</section>
 
 
 </section>
 
-<section id="reservetext">
-    <articel>
-    <h1>Naam</h1>
-    <h1>telefoon</h1>
-    <h1>Email</h1>
-    <h1>Aantal personen</h1>
-    <h1>datum</h1>
-    <h1>Tijd</h1>
-    <h1>Eventueele Opmerkingen</h1>
-    <articel>
 </section>
-
-
-<section id="reservebalk">
-<input type="text" placeholder="...">
-<input type="text" placeholder="...">
-<input type="text" placeholder="...">
-<input type="text" placeholder="...">
-</section>
-
-
-
 
 
 </body>
-</section>
+
+
 <?php
 include "includes/footer.php";
 ?>

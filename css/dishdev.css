@@ -11,7 +11,8 @@
  }  
 
     #innerkleur {
-    border: 15px solid #922C06;
+      background: white;
+     border: 20px solid #922C06;
    }
 
 
@@ -66,22 +67,33 @@
     width: 30px;
    }
 
-   #reservetext {
+   #placeholders {
+
     display: grid;
-    justify-items: center;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
+    justify-content: center;
    }
 
-   #reservetext > h1 {
-    gap: 30px;
+   #placeholders > section > label {
+    font-size: 25px;
+    margin-right: 20px;
    }
 
-   #reservebalk > input {
-   display: block;
-   justify-self: right;
-   margin-bottom: 20px;
-  }
+   #placeholders > section {
+
+    margin-top: 30px;
+   }
+
+   #placeholders > .opmerkingen > input {
+    
+      display: flex;
+      height: 75px;
+
+   }
+
+
+
+
+
 
   }
 
