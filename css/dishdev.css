@@ -9,6 +9,12 @@
    body {
    overflow-x: hidden;
  }  
+
+    #innerkleur {
+    border: 15px solid #922C06;
+   }
+
+
    img {
     width: 100%;
     height: auto;
@@ -60,10 +66,23 @@
     width: 30px;
    }
 
-   #innerkleur {
-
-    background: white;
-    border: 2px solid #922C06;
+   #reservetext {
+    display: grid;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
    }
 
+   #reservetext > h1 {
+    gap: 30px;
+   }
+
+   #reservebalk > input {
+   display: block;
+   justify-self: right;
+   margin-bottom: 20px;
   }
+
+  }
+
+  
