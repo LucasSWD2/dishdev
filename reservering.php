@@ -58,8 +58,9 @@ include "includes/header.php";
 
 </section>
 
-
 </section>
+
+<button class="reservebtn">Sumbit</button>
 
 </section>
 
