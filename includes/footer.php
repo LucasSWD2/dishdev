@@ -1,4 +1,4 @@
-<footer>
+ <footer>
     <section id="footerLogoEnText">
         <section>
             <p id="footerText">
