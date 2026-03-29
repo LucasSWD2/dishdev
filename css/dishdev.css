@@ -55,6 +55,8 @@
     padding-bottom: 0.4rem;
     gap: 1vh;
  }
+
+ 
    #footerLogoEnText {
     display: flex;
     align-items: center;
@@ -84,9 +86,9 @@
    }
 
    #placeholders > section > label {
-    font-size: 17px;
+    font-size: 40px;
     margin-right: 20px;
-    font-family: Rubik mono One, sans-serif;
+    font-family: 'rubik', sans-serif;
    }
 
    #placeholders > section {
@@ -97,6 +99,7 @@
    #placeholders > .opmerkingen > input {
     
       display: flex;
+      width: 200px;
       height: 75px;
 
    }
@@ -104,10 +107,11 @@
    #placeholders > section > input {
 
   flex: 1;
-  padding: 10px 12px;
+  padding: 15px 15px;
   border: 2px solid #ccc;
   border-radius: 8px;
-  font-size: 10px;
+  font-size: 30px;
+  margin-bottom: 40px;
   transition: all 0.3s ease;
 
    }
@@ -124,12 +128,12 @@
     display: flex;
     justify-self: right;
     position: relative;
-    bottom: 100px;
-    margin-right: 65px;
+    bottom: 150px;
+    margin-right: 110px;
     background-color: #922C06; 
     color: white; 
     border: none; 
-    padding: 10px 20px; 
+    padding: 20px 40px; 
     border-radius: 10px; 
     font-size: 16px; 
     font-weight: bold;
@@ -185,6 +189,7 @@
     text-decoration: none ;
     font-family: Rubik Mono One, sans-serif;
     font-size: 30px;
+    
    }
 
 
@@ -337,4 +342,3 @@ footer {
   }
 
   }  
-
