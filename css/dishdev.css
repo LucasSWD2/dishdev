@@ -149,11 +149,12 @@
     body {
       overflow-x: hidden;
 
+
     }
 
     #innerkleur{
       background: #ffffff;
-      border: 20px solid #922C06;
+      border: 70px solid #922C06; 
       
 
       
@@ -320,7 +321,6 @@
     justify-self: right;
     background-color: #922C06; 
     color: white; 
-    
     border: none; 
     padding: 25px 40px; 
     border-radius: 10px; 
@@ -330,5 +330,9 @@
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
     transition: all 0.2s ease-in-out;
 }
+
+  .reservebtn:hover {
+    background-color: #661e04;
+  }
   }  
 
