@@ -16,7 +16,10 @@ include "includes/header.php";
 
 <img src="images/Schermafbeelding 2026-03-27 202020.png" class="reserveimg" alt="reservering">
 
+<h1 class="reserveh1">Reservatie</h1>
+
 <section id="placeholders">
+
 
 <section class="naam"> 
     <label>Naam:</label>
@@ -63,6 +66,7 @@ include "includes/header.php";
 <button class="reservebtn">Sumbit</button>
 
 </section>
+
 
 
 </body>

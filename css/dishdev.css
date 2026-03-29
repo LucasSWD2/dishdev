@@ -137,6 +137,10 @@
   display: none;
 }
 
+.reservetext {
+  display: none;
+}
+
 
   }
 
@@ -216,7 +220,6 @@
 
    footer {
     background: black;
-    height: 30%;
    }
 
 #Footerimg {
@@ -250,6 +253,16 @@
     bottom: 20px;
    }
 
+   .reserveimg {
+    display: flex;
+    justify-self: center;
+    margin: 50px;
+    width: 40%;
+    border-radius: 20px;
+   }
+
+
+
 
 
    #footericons {
@@ -264,5 +277,58 @@
    #placeholders {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+
    }
+
+   #placeholders > section > label  {
+    font-size: 30px;
+    font-family: Rubik Mono One, sans-serif;
+   }
+
+   #placeholders > section {
+  margin-bottom: 75px;
+  margin-left: 0px;
+  margin-top: 50px;
+  padding: 10px 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 10px;
+  transition: all 0.3s ease;
+   }
+
+   #placeholders > .opmerkingen > input {
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    height: 100px;
+    width: 500px;
+   }
+
+  #placeholders > section > input {
+    height: 50px;
+    width: 200px;
+    font-size: 29px;
+  }
+
+  .reserveh1 {
+    display: flex;
+    justify-self: center;
+    font-family: Rubik Mono One, sans-serif;
+  }
+
+     .reservebtn {
+    display: flex;
+    justify-self: right;
+    background-color: #922C06; 
+    color: white; 
+    
+    border: none; 
+    padding: 25px 40px; 
+    border-radius: 10px; 
+    font-size: 23px; 
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+    transition: all 0.2s ease-in-out;
+}
   }  
+
