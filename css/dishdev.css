@@ -23,9 +23,24 @@
     height: auto;
  }
 
-   #footerText {
+   header {
+   Background-color: #101010;
+   flex-direction: column;
+   }
+
+   #headerlogos {
+
+   display: flex;
+   gap: 21rem ;
+   width: 25%;
+   padding-left: 10px;
+
+   
+   }
+
+  #footerText {
     color: white;
-    font-family: Rubik mono One, sans-serif;
+    font-family: 'rubik', sans-serif;
     font-size: 10px;
  }
    #namen {
@@ -48,22 +63,21 @@
     align-items: center;
     justify-content: space-around;
     gap: 0.5rem;
+    color: white;
+    font-family: 'rubik', sans-serif;
+    fon
 
  }
 
-   header {
-   Background-color: #101010;
-   flex-direction: column;
-   }
+ #Footerimg > img {
+  display: flex;
+  justify-self: right;
+  width: 50%;
+ }
 
-   #headerlogos {
+ #footericons > img {
 
-   display: flex;
-   gap: 14rem ;
-   width: 25%;
-   padding-left: 10px;
-
-   
+    width: 30px;
    }
 
    #footericons > img {
