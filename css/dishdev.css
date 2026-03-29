@@ -199,10 +199,10 @@
     height: 30%;
    }
 
-   #Headernav > nav {
-    position: relative;
-    left: 47%;
-    top: 10%;
+ #Headernav > nav {
+   display: flex;
+   margin-left: 25rem;
+   margin-top: 0.5rem;
 
 
    }
