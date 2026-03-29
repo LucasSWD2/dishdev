@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <meta name="author" content="Lucas">
     <meta name="description" content="Vlam & Vlees in Zoetermeer: geniet van sappige steaks, gegrild vlees en een gezellige sfeer. Reserveer nu voor een heerlijke grillervaring.">
     <meta name="keywords" content="Vlam & Vlees, steakhouse Zoetermeer, grill restaurant Zoetermeer, BBQ restaurant Zoetermeer, vlees restaurant Zoetermeer Promenade 12, 2711 AB zoetemeer, 088-1321111, info@vlamenvleeszoetermeer.nl">
     <title>Vlam & Vlees</title>
-    <link rel="stylesheet" src="css/dishdev.css">
+    <link rel="stylesheet" href="css/dishdev.css">
 </head>
 <?php
 include "includes/header.php";
