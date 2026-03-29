@@ -97,8 +97,6 @@ include "includes/header.php";
 
 
 </section>
-
-
 </body>
 
 <?php

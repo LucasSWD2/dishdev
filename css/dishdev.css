@@ -155,7 +155,7 @@
 
   header {
    Background-color: #101010;
-   height: 5rem;
+   height: 7rem;
    display: flex;
    
    }
@@ -166,12 +166,13 @@
     text-decoration: none ;
     font-family: Rubik Mono One, sans-serif;
     font-size: 30px;
+    
    }
 
 
    #headerlogos > img {
     margin-left: 25px; 
-    width: 110px; 
+    width: 150px; 
     margin-top: -2px;
    }
 
@@ -188,8 +189,9 @@
 
  #Headernav > nav {
    display: flex;
-   margin-left: 25rem;
-   margin-top: 0.5rem;
+   margin-left: 70%;
+   gap: 50px;
+   margin-top: 1.5rem;
 
 
    }
@@ -201,13 +203,7 @@
   border-radius: 5px;
 }
 
-   .Logo {
-   width: 10%;
-   margin-left: 10px;
-   
-   }
-
-   footer {
+footer {
     background: black;
    }
 
@@ -217,14 +213,17 @@
   justify-content: right;
   align-items: center;
 }
-
-
-   #Footerimg > img {
-    width: 15%;
-    margin-right: 50px;
+ #Footerimg > img {
+    width: 10%;
+    margin-right: 100px;
    }
 
-   #footerText {
+   #footerLogoEnText {
+    color: white;
+    font-family: Rubik Mono One, sans-serif;
+   }
+   
+#footerText {
     color: white;
     font-family: Rubik Mono One, sans-serif;
     font-size: 25px;
@@ -233,12 +232,26 @@
     margin-left: 40px;
 
    }
-
-   #namen {
+ #namen {
     color: white;
     font-family: Rubik Mono One, sans-serif;
     display: flex;
     justify-self: center;
+   }
+
+#footericons {
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2.5rem ;
+  gap: 30px;
+}
+
+#footericons > img {
+   width: 3%;
+  
+
    }
 
 
@@ -276,12 +289,6 @@
   display:none;
 }
 
-#deskmenunamen1,
-#deskmenunamen2,
-#deskmenunamen3 {
-  position: static !important;
-  display: block !important;
-}
 
 
 .menu {
@@ -333,21 +340,6 @@ display: none;
 
    
 
-#footericons {
-
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-left: 2.5rem ;
-  gap: 20px;
-}
-
-#footericons > img {
-   width: 3%;
-  
-
-   }
-
   #menutitle {
     display: flex;
     justify-self: center;
@@ -358,40 +350,3 @@ display: none;
   }
 
  
-@media (min-width: 768px) {
-   body {
-   overflow-x: hidden;
-   background-color: #922C06;
- }  
-
-  * {
-    margin: 0 0;
-  }
-  img {
-    width: 100%;
-    height: auto;
- }
-  footer {
-    display: flex;
-    background-color: #101010;
-    flex-direction: column;
-    justify-content: center;
- }
-   #footerLogoEnText {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
- #footerLogoEnText > section > img {
-  width: 15vw;
-  margin: 1vw;
- }
-.footerText {
-    color: white;
-    font-family: Rubik-One, sans-serif;
- }
-   #namen {
-    color: white;
-    font-family: Rubik-one, sans-serif;
- }
-}
