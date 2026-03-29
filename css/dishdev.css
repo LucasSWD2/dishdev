@@ -129,14 +129,10 @@
     display: none;
    }
 
-   #deskmenucontent , #deskmenunamen2 , #deskmenunamen1 , #deskmenunamen3 {
+   #deskmenucontent , #deskmenunamen2 , #deskmenunamen1 , #deskmenunamen3 , #deskmenuimg2 {
     display: none;
    }
 
-
-   .menu {
-    display: none;
-   }
 
    #menutitle {
     display: none;

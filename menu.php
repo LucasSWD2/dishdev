@@ -34,24 +34,6 @@ include "includes/header.php";
 <img src= "images/menu foto.png" class="menuimg" alt= "menuimg">
 
 
-<section id="menucontent">
-<h1 id="menunamen">
-<article>
- <strong>STEAK</strong> <strong>-100€</strong> <br>
- <p>Malse, sappige steak met een perfect gegrilde korst en volle, pure vleessmaak.</p>
- <strong>ZALM</strong> <strong>-100€</strong> <br>
- <p>Zacht gegaarde zalm, sappig en verfijnd met een frisse, pure smaak. </p>
- <strong>BURGER</strong> <strong>-150€</strong><br>
- <p>Sappige burger met een rijke grillsmaak en een perfect geroosterd broodje. </p>
- <strong>LUXE STEAK</strong> <strong>-150€</strong> <br>
- <p>Premium steak, boterzacht en intens van smaak, perfect gegrild voor ultieme beleving. </p>
-</h1>
-</article>
-</section> 
-
-
-
-
 
 <img src="images/Schermafbeelding 2026-03-16 140005.png" class="menuimg" alt="menuimg">
 
