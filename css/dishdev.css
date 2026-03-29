@@ -23,6 +23,7 @@
     height: auto;
  }
 
+  
    header {
    Background-color: #101010;
    flex-direction: column;
@@ -38,11 +39,7 @@
    
    }
 
-  #footerText {
-    color: white;
-    font-family: 'rubik', sans-serif;
-    font-size: 10px;
- }
+
    #namen {
     color: white;
     font-family: Rubik mono One, sans-serif;
@@ -65,7 +62,6 @@
     gap: 0.5rem;
     color: white;
     font-family: 'rubik', sans-serif;
-    fon
 
  }
 
@@ -76,11 +72,6 @@
  }
 
  #footericons > img {
-
-    width: 30px;
-   }
-
-   #footericons > img {
 
     width: 30px;
    }
