@@ -29,13 +29,6 @@ include "includes/header.php";
 
 
 
-<section id ="menucont">
-
-<img src= "images/menu foto.png" class="menuimg" alt= "menuimg">
-
-
-
-<img src="images/Schermafbeelding 2026-03-16 140005.png" class="menuimg" alt="menuimg">
 
 <section class="menu">
 
@@ -105,9 +98,6 @@ include "includes/header.php";
 
 </section>
 
-
-
-</section>
 
 
 
