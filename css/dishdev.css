@@ -319,6 +319,9 @@
      .reservebtn {
     display: flex;
     justify-self: right;
+    position: relative;
+    bottom: 10vw;
+    margin-right: 30rem;
     background-color: #922C06; 
     color: white; 
     border: none; 
