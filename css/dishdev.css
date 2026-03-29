@@ -182,10 +182,7 @@
     margin-top: -2px;
    }
 
-   footer {
-    background: black;
-    height: 30%;
-   }
+
 
  #Headernav nav a {
   text-decoration: none;
@@ -210,6 +207,11 @@
   color: white;
   border-radius: 5px;
 }
+
+   footer {
+    background: black;
+    height: 30%;
+   }
 
 #Footerimg {
 
