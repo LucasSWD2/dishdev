@@ -63,7 +63,8 @@
     justify-content: space-around;
     gap: 0.5rem;
     color: white;
-    font-family: 'rubik', sans-serif;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 10px;
 
  }
 
@@ -287,7 +288,7 @@ footer {
 
    #placeholders > section > label  {
     font-size: 40px;
-    font-family: 'rubik', sans-serif;
+    font-family: Rubik Mono One, sans-serif;
    }
 
    #placeholders > section {
@@ -317,7 +318,7 @@ footer {
   .reserveh1 {
     display: flex;
     justify-self: center;
-    font-family: 'rubik', sans-serif;
+    font-family: Rubik Mono One, sans-serif;
     font-size: 50px;
   }
 
