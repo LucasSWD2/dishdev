@@ -218,10 +218,6 @@ footer {
     margin-right: 100px;
    }
 
-   #footerLogoEnText {
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-   }
    
 #footerText {
     color: white;
@@ -294,13 +290,13 @@ footer {
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 100px;
   width: 80%;
   margin: 50px auto;
 }
 
 .menu > section > span {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 
@@ -327,9 +323,13 @@ footer {
 
 
 .menu p {
-  margin-top: 10px;
+  margin-top: 50px;
   font-family: 'Roboto', sans-serif;
   color: #444;
+}
+
+.menu > section > p {
+  font-size: 30px;
 }
 
 
@@ -343,6 +343,7 @@ display: none;
   #menutitle {
     display: flex;
     justify-self: center;
+    margin-top: 20px;
     font-size: 35px;
      font-family: 'Rubik Mono One', sans-serif;
   }
