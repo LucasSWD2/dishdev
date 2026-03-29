@@ -1,299 +1,299 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
-    background-color: #922C06;
-    font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+  background-color: #922C06;
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .gridCont {
-    display: grid;
-    grid-template-areas:
-        "img1 button1"
-        "tekst1 button1"
-        "img2 button2"
-        "tekst2 button2"
-        "img3 button3"
-        "tekst3 button3"
-        "img4 button4"
-        "tekst4 button4";
-    grid-template-columns: 1fr 1fr;
-    width: 90vw;
-    background-color: #FFFEFE;
-    margin: 2vh auto;
-    padding: 1rem 0;
-    row-gap: 0.5rem;
+  display: grid;
+  grid-template-areas:
+    "img1 button1"
+    "tekst1 button1"
+    "img2 button2"
+    "tekst2 button2"
+    "img3 button3"
+    "tekst3 button3"
+    "img4 button4"
+    "tekst4 button4";
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+  background-color: #FFFEFE;
+  margin: 2vh auto;
+  padding: 1rem 0;
+  row-gap: 0.5rem;
 }
 
 #naviImg1 {
-    grid-area: img1;
-    padding: 0.5rem 0 0.5rem 1rem;
+  grid-area: img1;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 #naviImg2 {
-    grid-area: img2;
-    padding: 0.5rem 0 0.5rem 1rem;
+  grid-area: img2;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 #naviImg3 {
-    grid-area: img3;
-    padding: 0.5rem 0 0.5rem 1rem;
+  grid-area: img3;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 #naviImg4 {
-    grid-area: img4;
-    padding: 0.5rem 0 0.5rem 1rem;
+  grid-area: img4;
+  padding: 0.5rem 0 0.5rem 1rem;
 }
 
 #naviImg1 > a > img,
 #naviImg2 > a > img,
 #naviImg3 > a > img,
 #naviImg4 > a > img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #naviButton1 {
-    grid-area: button1;
-    justify-self: center;
-    align-self: center;
+  grid-area: button1;
+  justify-self: center;
+  align-self: center;
 }
 
 #naviButton2 {
-    grid-area: button2;
-    justify-self: center;
-    align-self: center;
+  grid-area: button2;
+  justify-self: center;
+  align-self: center;
 }
 
 #naviButton3 {
-    grid-area: button3;
-    justify-self: center;
-    align-self: center;
+  grid-area: button3;
+  justify-self: center;
+  align-self: center;
 }
 
 #naviButton4 {
-    grid-area: button4;
-    justify-self: center;
-    align-self: center;
+  grid-area: button4;
+  justify-self: center;
+  align-self: center;
 }
 
 #naviButton1 > button,
 #naviButton2 > button,
 #naviButton3 > button,
 #naviButton4 > button {
-    background-color: #922C06;
-    color: #FFFEFE;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.8rem;
-    padding: 0.8rem 2rem;
+  background-color: #922C06;
+  color: #FFFEFE;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.8rem 2rem;
 }
 
 #naviButton1 > button:hover,
 #naviButton2 > button:hover,
 #naviButton3 > button:hover,
 #naviButton4 > button:hover {
-    background-color: #6e1f02;
+  background-color: #6e1f02;
 }
 
 #naviTekst1 {
-    grid-area: tekst1;
-    text-align: center;
-    padding-bottom: 0.5rem;
+  grid-area: tekst1;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 #naviTekst2 {
-    grid-area: tekst2;
-    text-align: center;
-    padding-bottom: 0.5rem;
+  grid-area: tekst2;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 #naviTekst3 {
-    grid-area: tekst3;
-    text-align: center;
-    padding-bottom: 0.5rem;
+  grid-area: tekst3;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 #naviTekst4 {
-    grid-area: tekst4;
-    text-align: center;
-    padding-bottom: 0.5rem;
+  grid-area: tekst4;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 #naviTekst1 > h1,
 #naviTekst2 > h1,
 #naviTekst3 > h1,
 #naviTekst4 > h1 {
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1rem;
-    color: #101010;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
+  color: #101010;
 }
 
 #desktopHomeText1,
 #desktopHomeText2,
 #desktopHomeText3,
 #desktopHomeText4 {
-    display: none;
+  display: none;
 }
 
 footer {
-    background-color: #101010;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+  background-color: #101010;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 footer > #footerLogoEnText {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 footer > #footerLogoEnText > section > article > p {
-    color: #ffffff;
-    font-family: 'Rubik', sans-serif;
-    font-size: 0.85rem;
-    line-height: 1.6;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
 }
 
 footer > #footerLogoEnText > section > img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 footer > #footerTitel > p {
-    color: #ffffff;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1rem;
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
 }
 
 footer > #namen > p {
-    color: #ffffff;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 0.95rem;
-    text-align: center;
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-    .gridCont {
-        display: grid;
-        grid-template-areas:
-            "img1 tekst1"
-            "naviTekst1 tekst1"
-            "img2 tekst2"
-            "naviTekst2 tekst2"
-            "img3 tekst3"
-            "naviTekst3 tekst3"
-            "img4 tekst4"
-            "naviTekst4 tekst4";
-        grid-template-columns: 1fr 1fr;
-        width: 90vw;
-        margin: 3vh auto;
-        row-gap: 0;
-    }
+  .gridCont {
+    display: grid;
+    grid-template-areas:
+      "img1 tekst1"
+      "naviTekst1 tekst1"
+      "img2 tekst2"
+      "naviTekst2 tekst2"
+      "img3 tekst3"
+      "naviTekst3 tekst3"
+      "img4 tekst4"
+      "naviTekst4 tekst4";
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 3vh auto;
+    row-gap: 0;
+  }
 
-    #naviButton1,
-    #naviButton2,
-    #naviButton3,
-    #naviButton4 {
-        display: none;
-    }
+  #naviButton1,
+  #naviButton2,
+  #naviButton3,
+  #naviButton4 {
+    display: none;
+  }
 
-    #desktopHomeText1 {
-        grid-area: tekst1;
-        display: flex;
-        align-items: center;
-        padding: 1rem 2rem;
-    }
+  #desktopHomeText1 {
+    grid-area: tekst1;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
 
-    #desktopHomeText2 {
-        grid-area: tekst2;
-        display: flex;
-        align-items: center;
-        padding: 1rem 2rem;
-    }
+  #desktopHomeText2 {
+    grid-area: tekst2;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
 
-    #desktopHomeText3 {
-        grid-area: tekst3;
-        display: flex;
-        align-items: center;
-        padding: 1rem 2rem;
-    }
+  #desktopHomeText3 {
+    grid-area: tekst3;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
 
-    #desktopHomeText4 {
-        grid-area: tekst4;
-        display: flex;
-        align-items: center;
-        padding: 1rem 2rem;
-    }
+  #desktopHomeText4 {
+    grid-area: tekst4;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
 
-    #desktopHomeText1 > a,
-    #desktopHomeText2 > a,
-    #desktopHomeText3 > a,
-    #desktopHomeText4 > a {
-        text-decoration: none;
-        color: #101010;
-        font-family: 'Rubik', sans-serif;
-        font-size: 1rem;
-    }
+  #desktopHomeText1 > a,
+  #desktopHomeText2 > a,
+  #desktopHomeText3 > a,
+  #desktopHomeText4 > a {
+    text-decoration: none;
+    color: #101010;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+  }
 
-    #naviTekst1 {
-        grid-area: naviTekst1;
-    }
+  #naviTekst1 {
+    grid-area: naviTekst1;
+  }
 
-    #naviTekst2 {
-        grid-area: naviTekst2;
-    }
+  #naviTekst2 {
+    grid-area: naviTekst2;
+  }
 
-    #naviTekst3 {
-        grid-area: naviTekst3;
-    }
+  #naviTekst3 {
+    grid-area: naviTekst3;
+  }
 
-    #naviTekst4 {
-        grid-area: naviTekst4;
-    }
+  #naviTekst4 {
+    grid-area: naviTekst4;
+  }
 
-    #naviTekst1 > h1,
-    #naviTekst2 > h1,
-    #naviTekst3 > h1,
-    #naviTekst4 > h1 {
-        font-size: 1.2rem;
-    }
+  #naviTekst1 > h1,
+  #naviTekst2 > h1,
+  #naviTekst3 > h1,
+  #naviTekst4 > h1 {
+    font-size: 1.2rem;
+  }
 
-    #naviImg1 > a > img,
-    #naviImg2 > a > img,
-    #naviImg3 > a > img,
-    #naviImg4 > a > img {
-        width: 100%;
-    }
+  #naviImg1 > a > img,
+  #naviImg2 > a > img,
+  #naviImg3 > a > img,
+  #naviImg4 > a > img {
+    width: 100%;
+  }
 
-    footer {
-        padding: 1.2rem 2rem;
-    }
+  footer {
+    padding: 1.2rem 2rem;
+  }
 
-    footer > #footerLogoEnText > section > article > p {
-        font-size: 1rem;
-    }
+  footer > #footerLogoEnText > section > article > p {
+    font-size: 1rem;
+  }
 
-    footer > #footerLogoEnText > #footerFoto {
-        width: 18vw;
-    }
+  footer > #footerLogoEnText > #footerFoto {
+    width: 18vw;
+  }
 
-    footer > #namen > p {
-        font-size: 1.1rem;
-    }
+  footer > #namen > p {
+    font-size: 1.1rem;
+  }
 }
