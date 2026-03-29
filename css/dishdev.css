@@ -171,20 +171,24 @@
       display: none;
     }
 
-    header {
+   .Lijn {
+
+      display: none;
+    }
+
+  header {
    Background-color: #101010;
    height: 5rem;
    display: flex;
-   justify-items: center;
    
    }
+
 
    #Headernav > nav > a {
     color: white;
     text-decoration: none ;
     font-family: Rubik Mono One, sans-serif;
     font-size: 30px;
-  
    }
 
 
@@ -196,14 +200,6 @@
 
 
 
- #Headernav > nav {
-   display: flex;
-   margin-left: 32.5rem;
-   margin-top: 0.5rem;
-
-
-   }
-
  #Headernav nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -212,6 +208,14 @@
   display: inline-block;
   transition: 0.3s;
 }
+
+ #Headernav > nav {
+   display: flex;
+   margin-left: 25rem;
+   margin-top: 0.5rem;
+
+
+   }
 
 
 #Headernav nav a:hover {
