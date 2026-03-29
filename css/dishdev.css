@@ -1,153 +1,153 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
-    background-color: #922C06;
-    font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+  background-color: #922C06;
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #openingstijdenCont {
-    width: 90vw;
-    background-color: #FFFEFE;
-    margin: 2vh auto;
-    padding-bottom: 2rem;
+  width: 90vw;
+  background-color: #FFFEFE;
+  margin: 2vh auto;
+  padding-bottom: 2rem;
 }
 
 #openingstijdenImg {
-    display: flex;
-    justify-content: center;
-    padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
 }
 
 #openingstijdenImg > img {
-    width: 80%;
-    height: auto;
+  width: 80%;
+  height: auto;
 }
 
 #openingstijdenTabel {
-    padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 #openingstijdenTabel > table {
-    width: 100%;
+  width: 100%;
 }
 
 #openingstijdenTabel > table > tbody > tr > td {
-    font-family: 'Rubik', sans-serif;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #101010;
-    padding: 0.4rem 1rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #101010;
+  padding: 0.4rem 1rem;
 }
 
 #openingstijdenTabel > table > tbody > tr.weekend {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 #openingstijdenTabel > table > tbody > tr.weekend > td {
-    padding-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 footer {
-    background-color: #101010;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+  background-color: #101010;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 footer > #footerTitel > p {
-    color: #ffffff;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1rem;
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
 }
 
 footer > #footerLogoEnText {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 footer > #footerLogoEnText > section > article > p {
-    color: #ffffff;
-    font-family: 'Rubik', sans-serif;
-    font-size: 0.85rem;
-    line-height: 1.6;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.85rem;
 }
 
 footer > #footerLogoEnText > section > img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 footer > #namen > p {
-    color: #ffffff;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 0.95rem;
-    text-align: center;
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-       #openingstijdenCont {
-        width: 90vw;
-        margin: 3vh auto;
-        padding-bottom: 2rem;
-    }
- #openingstijdenImg > img {
-    width: 100%;
-    height: 120px;
+#openingstijdenCont {
+  width: 90vw;
+  margin: 3vh auto;
+  padding-bottom: 2rem;
 }
-    #openingstijdenImg {
-        padding: 2rem 2rem 1rem;
-    }
+ #openingstijdenImg > img {
+  width: 100%;
+  height: 120px;
+}
+#openingstijdenImg {
+  padding: 2rem 2rem 1rem;
+}
  
-    #openingstijdenImg > img {
-        width: 70%;
-    }
+#openingstijdenImg > img {
+  width: 70%;
+}
  
-    #openingstijdenTabel {
-        padding: 1rem 4rem 2rem;
-        display: flex;
-        justify-content: center;
-    }
-    #openingstijdenTabel > table {
-        margin: 0 auto;
-        width: 40%;
-    }
+#openingstijdenTabel {
+  padding: 1rem 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+#openingstijdenTabel > table {
+  margin: 0 auto;
+  width: 40%;
+}
 
     
  
-    #openingstijdenTabel > table > tbody > tr > td {
-        font-size: 1.3rem;
-        padding: 0.4rem 3rem;
-    }
+#openingstijdenTabel > table > tbody > tr > td {
+  font-size: 1.3rem;
+  padding: 0.4rem 3rem;
+}
  
-    footer {
-        padding: 1.2rem 2rem;
-    }
+footer {
+  padding: 1.2rem 2rem;
+}
  
-    footer > #footerLogoEnText > section > article > p {
-        font-size: 1rem;
-    }
+footer > #footerLogoEnText > section > article > p {
+  font-size: 1rem;
+}
  
-    footer > #footerLogoEnText > #footerFoto {
-        width: 18vw;
-        flex-shrink: 0;
-    }
+footer > #footerLogoEnText > #footerFoto {
+  width: 18vw;
+  flex-shrink: 0;
+}
  
-    footer > #namen > p {
-        font-size: 1.1rem;
-    }
+footer > #namen > p {
+  font-size: 1.1rem;
+}
+
 }
