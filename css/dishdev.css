@@ -223,7 +223,6 @@
 
    footer {
     background: black;
-    height: 30%;
    }
 
 #Footerimg {
@@ -236,26 +235,24 @@
 
    #Footerimg > img {
     width: 15%;
-    margin-top: 75px;
     margin-right: 50px;
    }
 
    #footerText {
     color: white;
     font-family: Rubik Mono One, sans-serif;
-    margin: 30px;
-    font-size: 25px ;
-    position: absolute;
+    font-size: 25px;
+    position: relative;
+    top: 8rem;
+    margin-left: 40px;
 
    }
 
    #namen {
     color: white;
     font-family: Rubik Mono One, sans-serif;
-    position: relative;
-    font-size: 20px;
-    left: 45%;
-    bottom: 20px;
+    display: flex;
+    justify-self: center;
    }
 
 
@@ -360,7 +357,7 @@ display: none;
 }
 
 #footericons > img {
-  width: 3%;
+   width: 3%;
   
 
    }
