@@ -9,7 +9,7 @@
                 <p>telefoonnummer:088-1321111</p>
             </article>
         </section>
-        <section>
+        <section id="footerFoto">
             <img src="images/footer image.png" alt="restaurant foto">
         </section>
     </section>
