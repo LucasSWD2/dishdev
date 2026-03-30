@@ -21,7 +21,7 @@ include "includes/header.php";
 <section id="placeholders">
 
 
-<section class="naam"> 
+<section class="naamres"> 
     <label>Naam:</label>
     <input type="text" placeholder="">
 

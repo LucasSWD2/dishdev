@@ -16,6 +16,141 @@
     height: auto;
  }
 
+ *, *::after,
+  *::before {
+  box-sizing: border-box;
+ }
+
+ :root {
+  --bar-width:100px;
+  --bar-height: 18px;
+  --hamburger-gap: 18px;
+  --foreground: white;
+  --background: black;
+  --hamburger-margin:6px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+
+ }
+
+ .hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--hamburger-gap);
+  background: #101010;
+  width: max-content;
+  position: absolute;
+  justify-self: right;
+  top: 30px;
+  left: 20px;
+  z-index: 2;
+  cursor: pointer;
+ }
+
+ .hamburger-menu:has(input:checked){
+  --foreground:white  ;
+  --background:#101010;
+ }
+
+ .hamburger-menu:has(input:focus-visible)::before,
+ .hamburger-menu:has(input:focus-visible)::after,
+ .hamburger-menu input:focus-visible {
+  border: 1px solid var(--background);
+  box-shadow: 0 0 0 1px var(--foreground);
+
+ }
+
+ .hamburger-menu::before,
+ .hamburger-menu::after,
+ .hamburger-menu input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  border-radius: 9999px;
+  transform-origin: left center ;
+  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing);
+
+ }
+
+
+
+ .hamburger-menu input {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+ }
+
+ .hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / -2);
+ }
+
+ .hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / 2);
+ }
+
+ .hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+ }
+
+ .sidebar {
+  position: absolute;
+  transition:  translate var(--animation-timing);
+  translate: -100%;
+  padding: 0.5rem 1rem;
+  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  background-color: var(--foreground);
+  color: var(--background);
+  width: 900px;
+  height: 500px;
+ }
+
+ .hamburger-menu:has(input:checked) + .sidebar {
+  translate: 0;
+  background: #101010;
+
+ }
+
+ .sidebar > nav > a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+ }
+
+  .sidebar > nav > a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+
+ }
+
+ .sidebar > nav {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-bottom: 150px;
+  margin-left: 15px;
+  gap: 35px;
+ }
+
+ .sidebar > nav > img {
+  width: 35%;
+  display: flex;
+  justify-self: center;
+  position: relative;
+  bottom: 325px;
+  margin-left: 50px;
+ }
+
 
    header {
    Background-color: #101010;
@@ -25,6 +160,7 @@
    #headerlogos {
 
    display: flex;
+   justify-self: right;
    gap: 21rem ;
    width: 25%;
    padding-left: 10px;
@@ -242,16 +378,16 @@
 
    .reservebtn {
     display: flex;
-    justify-self: right;
+    justify-self: left;
     position: relative;
-    bottom: 150px;
-    margin-right: 110px;
+    bottom: 50px;
+    margin-left: 50px ;
     background-color: #922C06; 
     color: white; 
     border: none; 
     padding: 20px 40px; 
     border-radius: 10px; 
-    font-size: 16px; 
+    font-size: 30px; 
     font-weight: bold;
     cursor: pointer; 
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
