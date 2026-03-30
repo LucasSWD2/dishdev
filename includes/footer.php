@@ -1,17 +1,20 @@
-<link rel="stylesheet" href="css/dishdev.css">
  <footer>
     <section id="footerLogoEnText">
         <section>
-            <h1 class="footerText">Vlam & Vlees</h1>
-            <p class="footerText">
+            <p id="footerText">
                 Promenade 12 <br>
                 2711 AB zoetemeer <br>
                 Email:info@vlamenvleeszoetermeer.nl<br>
                 Telefoonnummer:088-1321111
             </p>
         </section>
-        <section>
+        <section id= "Footerimg">
             <img src="images/footer image.png" alt="Foto Lunchroom">
+        </section>
+        <section id="footericons">
+            <img src="images/image-removebg-preview.png" class="facebook" alt="facebook">
+            <img src="images/image-removebg-preview (1).png" class="instagram" alt="instagram">
+            <img src="images/Schermafbeelding_2026-03-26_131545-removebg-preview.png" class="twitter" alt="twitter">
         </section>
     </section>
     <section>
