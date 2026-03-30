@@ -6,10 +6,13 @@
     margin: 0 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/rubik-one');
 @media (max-width: 767px){
 
    body {
    overflow-x: hidden;
+   background-color: #922C06;
  }  
 
     #innerkleur {
@@ -181,6 +184,10 @@
    Background-color: #101010;
    height: 7rem;
    display: flex;
+   gap: 14rem ;
+   width: 25%;
+   padding-left: 10px;
+
    
    }
 
@@ -191,6 +198,125 @@
     font-family: Rubik Mono One, sans-serif;
     font-size: 30px;
     
+   .menuimg {
+    
+    display: flex;
+    width: 80%;
+    height: 150px;
+    padding: 45px;
+   }
+
+ #menucont > .menuimg {
+  border-radius: 10px;
+ }
+
+   #bodykleur {
+
+    background-color: white;
+    border: 20px solid #922C06;
+   }
+
+
+
+   #menunamen {
+
+    color: black;
+    font-family: Rubik-One, sans-serif;
+    line-height: 200px;
+    margin-left: 20px;
+
+
+   }
+
+   #menunamen p {
+    font-size: 20px;
+    line-height: 20px;
+    word-spacing: 0px;
+   }
+
+   #menunamen2 {
+
+    color:black;
+    font-family: Rubik-One, sans-serif;
+    margin-left: 20px;
+
+   }
+
+   #menunamen2 p {
+    font-size: 20px;
+    padding-top: 50px;
+   }
+
+    #menucontent {
+
+    position: relative;
+    top: -50px;
+   }
+
+   #footericons > img {
+
+    width: 30px;
+   }
+
+   #Headernav {
+    display: none;
+   }
+
+   #deskmenuimg {
+    display: none;
+   }
+
+   #deskmenucontent , #deskmenunamen2 , #deskmenunamen1 , #deskmenunamen3 {
+    display: none;
+   }
+
+
+  }
+
+
+
+
+   @media (min-width: 768px){
+
+  
+
+    body {
+      background: #922C06;
+      overflow-x: hidden;
+
+    }
+
+    #bodykleur {
+      background: white;
+      width: 94%;
+      margin-left: 3%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      border-radius: 20px;
+
+      
+    }
+    
+   .Lijn {
+
+      display: none;
+    }
+
+    header {
+   Background-color: #101010;
+   height: 5rem;
+   display: flex;
+   justify-items: center;
+   
+   }
+
+   #Headernav > nav > a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none ;
+    font-family: Rubik-One, sans-serif ;
+    font-size: 35px;
+  
    }
 
 
@@ -216,6 +342,148 @@
    margin-left: 70%;
    gap: 50px;
    margin-top: 1.5rem;
+ }
+
+#Headernav nav a:hover {
+  background-color: #922C06;
+  color: white;
+  border-radius: 5px;
+}
+
+#Footerimg {
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+   #Footerimg > img {
+    width: 10%;
+    margin-top: 75px;
+    margin-right: 50px;
+   }
+
+   #footerText {
+    color: white;
+    font-family: Rubik-One, sans-serif ;
+    margin: 30px;
+    font-size: 30px ;
+    position: absolute;
+
+   }
+
+   #namen {
+    color: white;
+    font-family: Rubik-One, sans-serif ;
+    position: relative;
+    font-size: 20px;
+    left: 46%;
+    bottom: 20px;
+   }
+
+   .Logo {
+   width: 10%;
+   position: absolute;
+   
+   }
+
+#deskmenuimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 70rem;
+
+}
+
+#deskmenuimg > img {
+    width: 98%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#mencontent , #menunamen , #menunamen2 {
+  display:none;
+}
+
+#deskmenunamen1 , #deskmenunamen2 , #deskmenunamen3 {
+
+font-family: Rubik-One, sans-serif ;
+font-size: 35px;
+
+}
+
+
+#deskmenunamen1 {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  padding-left: 9%;
+  top: 60%;
+}
+
+#deskmenunamen2 { 
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  position: absolute;
+  padding-left: 20%;
+  left: 30%;
+  bottom: -14.5%;
+}
+
+#deskmenunamen3 {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  padding-bottom: 10px;
+  padding-left: 9%;
+  bottom: -56%;
+}
+
+
+
+.menuimg {
+display: none;
+} 
+
+   
+
+#deskmenuimg > h1 {
+
+  position: absolute;
+  top: 47%;
+  left: 46%;
+  font-family: Rubik-One, sans-serif ;
+  font-size: 45px;
+
+}
+
+#footericons {
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2.5rem ;
+  gap: 20px;
+}
+
+#footericons > img {
+  width: 3%;
+  
+
+   }
+
+  }
+
+ 
+@media (min-width: 768px) {
+   body {
+   overflow-x: hidden;
+   background-color: #922C06;
+ }  
 
 
    }
@@ -344,4 +612,18 @@ footer {
     background-color: #661e04;
   }
 
-  }  
+
+  
+ #footerLogoEnText > section > img {
+  width: 15vw;
+  margin: 1vw;
+ }
+.footerText {
+    color: white;
+    font-family: Rubik-One, sans-serif;
+ }
+   #namen {
+    color: white;
+    font-family: Rubik-one, sans-serif;
+ }
+}
