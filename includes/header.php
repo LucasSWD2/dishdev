@@ -8,9 +8,20 @@
 </head>
 
 <body>
-    <header>
-        <section id="headerlogos">
-            <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-            <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Lijn" class="Lijn"> 
-        </section>
-    </header>
+<header>
+  <section id="headerlogos">
+    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+    <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Lijn" class="Lijn" >
+  </section>
+
+  <section id="Headernav">
+    <nav id="navMenu">
+      <a href="index.php">Home</a>
+      <a href="reservering.php">Reservatie</a>
+      <a href="menu.php">Menu</a>
+      <a href="Vacatures.php">Vacatures</a>
+      <a href="Openingstijden.php">Openingstijden</a>
+    </nav>
+  </section>
+</header>
+
