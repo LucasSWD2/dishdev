@@ -198,10 +198,9 @@
 
  }
 
- #Footerimg > img {
+ #footerFoto > img {
   display: flex;
   justify-self: right;
-
   width: 50%;
  }
 
@@ -553,13 +552,13 @@ footer {
     background: black;
    }
 
-#Footerimg {
+#footerFoto {
 
   display: flex;
   justify-content: right;
   align-items: center;
 }
- #Footerimg > img {
+ #footerFoto > img {
     width: 10%;
     margin-right: 100px;
    }
@@ -942,4 +941,3 @@ footer {
   }
 
 }
-

@@ -1,7 +1,7 @@
  <footer>
     <section id="footerLogoEnText">
         <section>
-            <article>
+            <article id="footerText">
                 <p>Promenade 12</p>
                 <p>2711 AB Zoetermeer</p>
                 <p>email:info@vlamenvleeszoetermeer.nl</p>
