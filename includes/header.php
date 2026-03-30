@@ -19,7 +19,7 @@
       <a href="reservering.php">Reservatie</a>
       <a href="menu.php">Menu</a>
       <a href="Vacatures.php">Vacatures</a>
-      <a href="Openingstijden.php">Openingstijden</a>
+      <a href="openingstijden.php">Openingstijden</a>
     </nav>
   </section>
 

@@ -322,10 +322,9 @@
  #Footerimg > img {
   display: flex;
   justify-self: right;
-  width: 50%;
+  width: 25%;
  }
 
- #footericons > img {
 
   .menu p {
     margin-top: 10px;
@@ -352,6 +351,9 @@
 
    #menutitle {
     display: none;
+  }
+
+
    #placeholders > section {
 
     margin-top: 30px;
@@ -411,7 +413,71 @@
   display: none;
 }
 
-  }
+ body {
+   overflow-x: hidden;
+   background-color: #922C06 ;
+ } 
+
+
+#openingstijdenCont {
+    width: 90vw;
+    background-color: #FFFEFE;
+    margin: 2vh auto;
+    padding-bottom: 2rem;
+}
+
+#openingstijdenImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+ 
+#openingstijdenImg > img {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+   header {
+   Background-color: #101010;
+   flex-direction: column;
+   }
+
+#openingstijdenTabel {
+  display: flex;
+  justify-content: center;
+    padding: 2rem 1.5rem;
+}
+
+#openingstijdenTabel > table > tbody > tr > td {
+    justify-self: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #101010;
+    padding: 0.4rem 1rem;
+
+
+}
+
+
+
+    
+#openingstijdenTabel > table > tbody > tr.weekend {
+    padding-top: 1rem;
+}
+
+#openingstijdenTabel > table > tbody > tr.weekend > td {
+    padding-top: 1.5rem;
+}
+
+}
+
 
 @media (min-width: 768px){
 
@@ -530,6 +596,10 @@ footer {
 
    }
 
+   .hamburger-menu, .sidebar {
+    display: none;
+   }
+
 
 #deskmenuimg {
     display: grid;
@@ -598,6 +668,9 @@ footer {
   padding: 15px;
   border-radius: 10px;
   position: relative;
+
+}
+
 .menu section {
   background: white;
   padding: 15px;
@@ -660,6 +733,7 @@ footer {
 .menuimg {
 display: none;
 } 
+
   #menutitle {
     display: flex;
     justify-self: center;
@@ -780,7 +854,7 @@ footer {
 
 #footericons > img {
    width: 3%;
-  
+}
 
    
 
@@ -792,7 +866,6 @@ footer {
      font-family: 'Rubik Mono One', sans-serif;
   }
 
-  }
 
  
 
@@ -867,7 +940,6 @@ footer {
   .reservebtn:hover {
     background-color: #661e04;
   }
- 
-}
 
+}
 
