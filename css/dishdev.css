@@ -191,8 +191,10 @@
 
  #footericons > img {
 
-    width: 30px;
-   }
+  .menu p {
+    margin-top: 10px;
+    color: #555;
+  }
 
    #placeholders {
 
@@ -207,6 +209,13 @@
     font-family: 'rubik', sans-serif;
    }
 
+   #deskmenuimg2 {
+    display: none;
+   }
+
+
+   #menutitle {
+    display: none;
    #placeholders > section {
 
     margin-top: 30px;
@@ -439,6 +448,24 @@ footer {
 }
 
 
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.menu > section > span {
+  font-size: 30px;
+}
+
+
+.menu section {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
 .menu section {
   background: white;
   padding: 15px;
@@ -472,13 +499,35 @@ footer {
 }
 
 
+.naam {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 16px;
+}
+
+
+.prijs {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-weight: bold;
+}
+
+
+.menu p {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+.menu > section > p {
+  font-size: 30px;
+}
+
+
 
 .menuimg {
 display: none;
 } 
-
-   
-
   #menutitle {
     display: flex;
     justify-self: center;
@@ -604,8 +653,19 @@ footer {
    width: 3%;
   
 
-   }
+   
 
+  #menutitle {
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 35px;
+     font-family: 'Rubik Mono One', sans-serif;
+  }
+
+  }
+
+ 
 
    .reserveimg {
     display: flex;
