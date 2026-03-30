@@ -18,9 +18,10 @@
     <nav id="navMenu">
       <a href="index.php">Home</a>
       <a href="reservering.php">Reservatie</a>
-      <a href="Menu.php">Menu</a>
+      <a href="menu.php">Menu</a>
       <a href="Vacatures.php">Vacatures</a>
       <a href="Openingstijden.php">Openingstijden</a>
     </nav>
   </section>
 </header>
+
