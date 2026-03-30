@@ -286,6 +286,8 @@
    width: 25%;
    padding-left: 10px;
 
+   }
+
   #naviTekst2 {
     grid-area: naviTekst2;
   }
@@ -464,8 +466,6 @@
 
 
 }
-
-
 
     
 #openingstijdenTabel > table > tbody > tr.weekend {

@@ -1,8 +1,4 @@
-<link rel="stylesheet" href="css/dishdev.css">
  <footer>
-    <section id="footerTitel">
-        <p>Vlam & Vlees</p>
-    </section>
     <section id="footerLogoEnText">
         <section>
             <article id="footerText">
@@ -25,3 +21,4 @@
         <p>Lucas & Kirubel</p>
     </section>
 </footer>
+
