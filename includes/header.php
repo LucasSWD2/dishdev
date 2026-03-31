@@ -6,9 +6,21 @@
     <link rel="stylesheet" href="css/dishdev.css">
     <title>Document</title>
 </head>
-    <header>
-        <section id="Headerlogos">
-            <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-            <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Lijn" class="Lijn"> 
-        </section>
-    </header>
+
+<body>
+<header>
+  <section id="headerlogos">
+    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+    <img src="images/Drie_horizontale_witte_lijnen-removebg-preview.png" alt="Menu" class="Lijn" >
+  </section>
+
+  <section id="Headernav">
+    <nav id="navMenu">
+      <a href="index.php">Home</a>
+      <a href="reservering.php">Reservatie</a>
+      <a href="menu.php">Menu</a>
+      <a href="Vacatures.php">Vacatures</a>
+      <a href="Openingstijden.php">Openingstijden</a>
+    </nav>
+  </section>
+</header>
