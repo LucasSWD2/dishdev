@@ -44,7 +44,7 @@ img {
     #footerText {
     color: white;
     font-family: Rubik mono One, sans-serif;
-    font-size: 50px;
+    font-size: 15px;
  }
    #namen {
     color: white;
@@ -62,12 +62,12 @@ img {
 #footerFoto > img {
   display: flex;
   justify-self: right;
-  width: 50%;
+  width: 200px;
  }
 
  #footericons > img {
 
-    width: 30px;
+    width: 40px;
    }
 
 footer {
@@ -639,6 +639,8 @@ footer {
     color: #555;
   }
 
+
+
    #placeholders {
 
     display: grid;
@@ -736,71 +738,25 @@ footer {
       display: none;
     }
 
-  header {
-   Background-color: #101010;
-   height: 7rem;
-   display: flex;
-   flex-direction: row;
-   
-   }
 
 
-   #Headernav > nav > a {
-    color: white;
-    text-decoration: none ;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 30px;
-    
-   }
-
-
-   #headerlogos > img {
-    margin-left: 25px; 
-    width: 150px; 
-    margin-top: -2px;
-   }
-
-
-
- #Headernav nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 10px 15px;
-  margin: 5px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
- #Headernav > nav {
-   display: flex;
-   margin-left: 70%;
-   gap: 50px;
-   margin-top: 1.5rem;
-
-
-   }
-
-
-#Headernav nav a:hover {
-  background-color: #922C06;
-  color: white;
-  border-radius: 5px;
-}
 
 footer {
   background-color: #101010;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
-footer {
-  background-color: #101010;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
+#footericons {
+  position: relative;
+  margin-top: 30px;
+  bottom: -100px;
+  right: 35.5%;
+  display: flex;                
+  gap: 20px;                 
+  width: 7%;                
 }
 
 footer > #footerLogoEnText {
@@ -814,13 +770,15 @@ footer > #footerLogoEnText {
 footer > #footerLogoEnText > section > article > p {
   color: #ffffff;
   font-family: 'Rubik', sans-serif;
-  font-size: 0.85rem;
+  font-size: 2rem;
   line-height: 1.6;
+  
 }
 
 footer > #footerLogoEnText > section > img {
-  width: 100%;
+  width: 30%;
   height: auto;
+  margin-top: 30px;
 }
 
 footer > #namen > p {
