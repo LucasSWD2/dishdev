@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/rubik-one');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@media (max-width: 767px){
+body {
+  overflow-x: hidden;
+  background-color: #922C06;
+  font-family: 'Rubik', sans-serif;
+}
 
-   body {
-   overflow-x: hidden;
-   background-color: #922C06;
- }  
-   img {
-    width: 100%;
-    height: auto;
- }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
- *, *::after,
+
+*, *::after,
   *::before {
   box-sizing: border-box;
  }
@@ -153,73 +152,358 @@
   margin-left: 50px;
  }
 
+#vacaturesCont {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "vacHead"
+    "tekst"
+    "buttons"
+    "vacatureBarKokBed"
+    "vacatureTekst"
+    "form";
+  grid-template-columns: 1fr;
+  width: 90vw;
+  background-color: #FFFEFE;
+  margin: 2vh auto;
+  row-gap: 1.2vh;
+  padding-bottom: 2rem;
+}
 
-   header {
-   Background-color: #101010;
-   flex-direction: column;
-   }
+#vacatureImg {
+  grid-area: img;
+}
 
-   #headerlogos {
+#vacatureImg > img {
+  width: 100%;
+  height: auto;
+}
 
-   display: flex;
-   justify-self: right;
-   gap: 21rem ;
-   width: 25%;
-   padding-left: 10px;
+#vacatureHead {
+  grid-area: vacHead;
+  text-align: center;
+  padding: 0.8rem 1rem 0;
+}
 
-   
-   }
+#vacatureHead > h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.4rem;
+  color: #101010;
+  letter-spacing: 0.05em;
+}
 
-  #footerText {
-    color: white;
-    font-family: Rubik mono One, sans-serif;
-    font-size: 10px;
- }
-   #namen {
-    color: white;
-    font-family: Rubik mono One, sans-serif;
-    font-size: 10px;
- }
+#vacatureTekst {
+  grid-area: tekst;
+  width: 85%;
+  justify-self: center;
+  text-align: center;
+}
 
-   footer {
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
+#vacatureTekst > p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #101010;
+}
 
-  #desktopHomeText2 {
-    grid-area: tekst2;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.5rem;
-    color: white;
-    font-family: 'rubik', sans-serif;
+#vacatureButtons {
+  grid-area: buttons;
+  justify-self: center;
+  width: 85%;
+}
 
- }
-
- #footerFoto > img {
+#vacatureButtons > form {
   display: flex;
-  justify-self: right;
-  width: 50%;
- }
+  gap: 0.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
- #footericons > img {
+#vacatureButtons > form > button {
+  background-color: #922C06;
+  color: #fff;
+  border: 2px solid #101010;
+  border-radius: 0.5rem;
+  padding: 0.45rem 1.1rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
 
-    width: 30px;
-   }
+#vacatureButtons > form > button:hover {
+  background-color: #6e1f02;
+}
 
+#vacatureBarKokBed {
+  grid-area: vacatureBarKokBed;
+  text-align: center;
+  padding-top: 0.4rem;
+}
 
+#vacatureBarKokBed > h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.2rem;
+  color: #101010;
+  letter-spacing: 0.05em;
+}
 
-   #bodykleur {
+#vacatureButtonTekst {
+  grid-area: vacatureTekst;
+  width: 85%;
+  justify-self: center;
+  text-align: center;
+}
 
-    background-color: white;
-    border: 20px solid #922C06;
-   }
+#vacatureButtonTekst > p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #101010;
+}
 
-   
+#form {
+  grid-area: form;
+  justify-self: center;
+  width: 85%;
+  padding-top: 0.5rem;
+}
 
-  .menu section {
+#form > form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.5rem 0.8rem;
+}
+
+#form > form > label {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #101010;
+  white-space: nowrap;
+}
+
+#form > form > input[type="text"],
+#form > form > input[type="email"],
+#form > form > input[type="tel"] {
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 0.2rem;
+  padding: 0.25rem 0.4rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #101010;
+}
+
+#form > form > input[type="file"] {
+  display: none;
+}
+
+#form > form > label.cv-upload-label {
+  display: inline-block;
+  background-color: #922C06;
+  color: #fff;
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.9rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+#form > form > input[type="submit"] {
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-top: 0.5rem;
+  background-color: #922C06;
+  color: #fff;
+  border: 2px solid #101010;
+  border-radius: 0.5rem;
+  padding: 0.45rem 2rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+#form > form > input[type="submit"]:hover {
+  background-color: #6e1f02;
+}
+
+.gridCont {
+  display: grid;
+  grid-template-areas:
+    "img1 button1"
+    "tekst1 button1"
+    "img2 button2"
+    "tekst2 button2"
+    "img3 button3"
+    "tekst3 button3"
+    "img4 button4"
+    "tekst4 button4";
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+  background-color: #FFFEFE;
+  margin: 2vh auto;
+  padding: 1rem 0;
+  row-gap: 0.5rem;
+}
+
+#naviImg1 {
+  grid-area: img1;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+#naviImg2 {
+  grid-area: img2;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+#naviImg3 {
+  grid-area: img3;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+#naviImg4 {
+  grid-area: img4;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+#naviImg1 > a > img,
+#naviImg2 > a > img,
+#naviImg3 > a > img,
+#naviImg4 > a > img {
+  width: 100%;
+  height: auto;
+}
+
+#naviButton1 {
+  grid-area: button1;
+  justify-self: center;
+  align-self: center;
+}
+
+#naviButton2 {
+  grid-area: button2;
+  justify-self: center;
+  align-self: center;
+}
+
+#naviButton3 {
+  grid-area: button3;
+  justify-self: center;
+  align-self: center;
+}
+
+#naviButton4 {
+  grid-area: button4;
+  justify-self: center;
+  align-self: center;
+}
+
+#naviButton1 > button,
+#naviButton2 > button,
+#naviButton3 > button,
+#naviButton4 > button {
+  background-color: #922C06;
+  color: #FFFEFE;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 0.8rem 2rem;
+}
+
+#naviButton1 > button:hover,
+#naviButton2 > button:hover,
+#naviButton3 > button:hover,
+#naviButton4 > button:hover {
+  background-color: #6e1f02;
+}
+
+#naviTekst1 {
+  grid-area: tekst1;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#naviTekst2 {
+  grid-area: tekst2;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#naviTekst3 {
+  grid-area: tekst3;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#naviTekst4 {
+  grid-area: tekst4;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#naviTekst1 > h1,
+#naviTekst2 > h1,
+#naviTekst3 > h1,
+#naviTekst4 > h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1rem;
+  color: #101010;
+}
+
+#desktopHomeText1,
+#desktopHomeText2,
+#desktopHomeText3,
+#desktopHomeText4 {
+  display: none;
+}
+
+#openingstijdenCont {
+  width: 90vw;
+  background-color: #FFFEFE;
+  margin: 2vh auto;
+  padding-bottom: 2rem;
+}
+
+#openingstijdenImg {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+#openingstijdenImg > img {
+  width: 80%;
+  height: auto;
+}
+
+#openingstijdenTabel {
+  padding: 2rem 1.5rem;
+}
+
+#openingstijdenTabel > table {
+  width: 100%;
+}
+
+#openingstijdenTabel > table > tbody > tr > td {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #101010;
+  padding: 0.4rem 1rem;
+}
+
+#openingstijdenTabel > table > tbody > tr.weekend {
+  padding-top: 1rem;
+}
+
+#openingstijdenTabel > table > tbody > tr.weekend > td {
+  padding-top: 1.5rem;
+}
+
+.menu section {
     background: white;
     border-radius: 15px;
     padding: 15px;
@@ -244,12 +528,7 @@
     margin-top: 10px;
     color: #555;
   }
-
-   #Headernav {
-    display: none;
-   }
-
-   #deskmenuimg {
+ #deskmenuimg {
     display: none;
    }
 
@@ -267,66 +546,12 @@
      border: 20px solid #922C06;
    }
 
+    #bodykleur {
 
-   img {
-    width: 100%;
-    height: auto;
- }
-
-  
-   header {
-   Background-color: #101010;
-   flex-direction: column;
+    background-color: white;
+    border: 20px solid #922C06;
    }
-
-   #headerlogos {
-
-   display: flex;
-   gap: 21rem ;
-   width: 25%;
-   padding-left: 10px;
-
-  #naviTekst2 {
-    grid-area: naviTekst2;
-  }
-
-
-   #namen {
-    color: white;
-    font-family: Rubik mono One, sans-serif;
-    font-size: 10px;
- }
-
-   footer {
-    display: flex;
-    background-color: #101010;
-    align-items: center;
-    flex-direction: column;
-    padding: 0.8rem;
-    padding-bottom: 0.4rem;
-    gap: 1vh;
- }
-
- 
-   #footerLogoEnText {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.5rem;
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 10px;
-
- }
-
- #Footerimg > img {
-  display: flex;
-  justify-self: right;
-  width: 25%;
- }
-
-
-  .menu p {
+.menu p {
     margin-top: 10px;
     color: #555;
   }
@@ -405,201 +630,221 @@
     transition: all 0.2s ease-in-out;
 }
 
-#Headernav {
-  display: none;
-}
-
-.reservetext , .reserveh1 {
-  display: none;
-}
-
- body {
-   overflow-x: hidden;
-   background-color: #922C06 ;
- } 
 
 
-#openingstijdenCont {
-    width: 90vw;
-    background-color: #FFFEFE;
-    margin: 2vh auto;
-    padding-bottom: 2rem;
-}
-
-#openingstijdenImg {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.5rem;
-    justify-content: center;
-    padding: 1.5rem;
-}
-
- 
-#openingstijdenImg > img {
-    width: 80%;
-    height: auto;
-    margin-top: 50px;
-    border-radius: 20px;
-}
-
-   header {
-   Background-color: #101010;
-   flex-direction: column;
-   }
-
-#openingstijdenTabel {
+footer {
+  background-color: #101010;
+  padding: 1rem;
   display: flex;
-  justify-content: center;
-    padding: 2rem 1.5rem;
-}
-
-#openingstijdenTabel > table > tbody > tr > td {
-    justify-self: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #101010;
-    padding: 0.4rem 1rem;
-
-
-}
-
-
-
-    
-#openingstijdenTabel > table > tbody > tr.weekend {
-    padding-top: 1rem;
-}
-
-#openingstijdenTabel > table > tbody > tr.weekend > td {
-    padding-top: 1.5rem;
-}
-
-}
-
-
-@media (min-width: 768px){
-
-    body {
-      overflow-x: hidden;
-
-    }
-
-    #bodykleur {
-    background: white;
-    border: 50px solid #922C06;
-      
-
-      
-    }
-    
-   .Lijn {
-
-      display: none;
-    }
-
-  header {
-   Background-color: #101010;
-   height: 7rem;
-   display: flex;
-   
-   }
-
-
-   #Headernav > nav > a {
-    color: white;
-    text-decoration: none ;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 30px;
-    
-   }
-
-
-   #headerlogos > img {
-    margin-left: 25px; 
-    width: 150px; 
-    margin-top: -2px;
-   }
-
-
-
- #Headernav nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 10px 15px;
-  margin: 5px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
- #Headernav > nav {
-   display: flex;
-   margin-left: 70%;
-   gap: 50px;
-   margin-top: 1.5rem;
-
-
-   }
-
-
-#Headernav nav a:hover {
-  background-color: #922C06;
-  color: white;
-  border-radius: 5px;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 footer {
-    background: black;
-   }
-
-#footerFoto {
-
+  background-color: #101010;
+  padding: 1rem;
   display: flex;
-  justify-content: right;
-  align-items: center;
-}
- #footerFoto > img {
-    width: 10%;
-    margin-right: 100px;
-   }
-
-   
-#footerText {
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 25px;
-    position: relative;
-    top: 8rem;
-    margin-left: 40px;
-
-   }
- #namen {
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-    display: flex;
-    justify-self: center;
-   }
-
-#footericons {
-
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-left: 2.5rem ;
-  gap: 30px;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
-#footericons > img {
-   width: 3%;
-  
+footer > #footerLogoEnText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
 
-   }
+footer > #footerLogoEnText > section > article > p {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
 
-   .hamburger-menu, .sidebar {
+footer > #footerLogoEnText > section > img {
+  width: 100%;
+  height: auto;
+}
+
+footer > #namen > p {
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+
+  #vacaturesCont {
+    width: 90vw;
+    row-gap: 1.5vh;
+    margin: 3vh auto;
+  }
+
+  #vacatureImg {
     display: none;
-   }
+  }
 
+  #vacatureHead > h1 {
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+
+  #vacatureBarKokBed > h1 {
+    font-size: 1.5rem;
+  }
+
+  #vacatureTekst {
+    width: 75%;
+  }
+
+  #vacatureTekst > p {
+    font-size: 1rem;
+  }
+
+  #vacatureButtonTekst {
+    width: 75%;
+  }
+
+  #vacatureButtonTekst > p {
+    font-size: 1rem;
+  }
+
+  #vacatureButtons > form > button {
+    font-size: 0.85rem;
+    padding: 0.5rem 1.4rem;
+  }
+
+  #form {
+    width: 50%;
+  }
+
+  #form > form {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+   .gridCont {
+    display: grid;
+    grid-template-areas:
+      "img1 tekst1"
+      "naviTekst1 tekst1"
+      "img2 tekst2"
+      "naviTekst2 tekst2"
+      "img3 tekst3"
+      "naviTekst3 tekst3"
+      "img4 tekst4"
+      "naviTekst4 tekst4";
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 3vh auto;
+    row-gap: 0;
+  }
+
+  #naviButton1,
+  #naviButton2,
+  #naviButton3,
+  #naviButton4 {
+    display: none;
+  }
+
+  #desktopHomeText1 {
+    grid-area: tekst1;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  #desktopHomeText2 {
+    grid-area: tekst2;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  #desktopHomeText3 {
+    grid-area: tekst3;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  #desktopHomeText4 {
+    grid-area: tekst4;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  #desktopHomeText1 > a,
+  #desktopHomeText2 > a,
+  #desktopHomeText3 > a,
+  #desktopHomeText4 > a {
+    text-decoration: none;
+    color: #101010;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+  }
+
+  #naviTekst1 {
+    grid-area: naviTekst1;
+  }
+
+  #naviTekst2 {
+    grid-area: naviTekst2;
+  }
+
+  #naviTekst3 {
+    grid-area: naviTekst3;
+  }
+
+  #naviTekst4 {
+    grid-area: naviTekst4;
+  }
+
+  #naviTekst1 > h1,
+  #naviTekst2 > h1,
+  #naviTekst3 > h1,
+  #naviTekst4 > h1 {
+    font-size: 1.2rem;
+  }
+
+  #naviImg1 > a > img,
+  #naviImg2 > a > img,
+  #naviImg3 > a > img,
+  #naviImg4 > a > img {
+    width: 100%;
+  }
+
+  #openingstijdenCont {
+  width: 90vw;
+  margin: 3vh auto;
+  padding-bottom: 2rem;
+}
+ #openingstijdenImg > img {
+  width: 100%;
+  height: 120px;
+}
+#openingstijdenImg {
+  padding: 2rem 2rem 1rem;
+}
+ 
+#openingstijdenImg > img {
+  width: 70%;
+}
+ 
+#openingstijdenTabel {
+  padding: 1rem 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+#openingstijdenTabel > table {
+  margin: 0 auto;
+  width: 40%;
+}
 
 #deskmenuimg {
     display: grid;
@@ -741,178 +986,14 @@ display: none;
     font-size: 35px;
      font-family: 'Rubik Mono One', sans-serif;
   }
-
-
- body {
-      overflow-x: hidden;
-
-    }
-
-    #innerkleur {
-    background: white;
-    border: 50px solid #922C06;
-      
-      
-    }
     
-   .Lijn {
-
-      display: none;
-    }
-
-  header {
-   Background-color: #101010;
-   height: 7rem;
-   display: flex;
-   
-   }
-
-
-   #Headernav > nav > a {
-    color: white;
-    text-decoration: none ;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 30px;
-    
-   }
-
-
-   #headerlogos > img {
-    margin-left: 25px; 
-    width: 150px; 
-    margin-top: -2px;
-   }
-
-
-
- #Headernav nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 10px 15px;
-  margin: 5px;
-  display: inline-block;
-  transition: 0.3s;
-}
-
- #Headernav > nav {
-   display: flex;
-   margin-left: 70%;
-   gap: 50px;
-   margin-top: 1.5rem;
-
-
-   }
-
-
-#Headernav nav a:hover {
-  background-color: #922C06;
-  color: white;
-  border-radius: 5px;
-}
-
-
-footer {
-    background: black;
-   }
-
-#Footerimg {
-
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
- #Footerimg > img {
-    width: 10%;
-    margin-right: 100px;
-   }
-
-   
-#footerText {
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-    font-size: 25px;
-    position: relative;
-    top: 8rem;
-    margin-left: 40px;
-
-   }
- #namen {
-    color: white;
-    font-family: Rubik Mono One, sans-serif;
-    display: flex;
-    justify-self: center;
-   }
-
-#footericons {
-
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin-left: 2.5rem ;
-  gap: 30px;
-}
-
-#footericons > img {
-   width: 3%;
-}
-
-   
-
-  #menutitle {
-    display: flex;
-    justify-self: center;
-    margin-top: 20px;
-    font-size: 35px;
-     font-family: 'Rubik Mono One', sans-serif;
-  }
-
-
  
+#openingstijdenTabel > table > tbody > tr > td {
+  font-size: 1.3rem;
+  padding: 0.4rem 3rem;
+}
 
-   .reserveimg {
-    display: flex;
-    justify-self: center;
-    margin: 50px;
-    width: 40%;
-    border-radius: 20px;
-   }
-
-   #placeholders {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-
-   }
-
-   #placeholders > section > label  {
-    font-size: 40px;
-    font-family: Rubik Mono One, sans-serif;
-   }
-
-   #placeholders > section {
-  margin-bottom: 75px;
-  margin-left: 0px;
-  margin-top: 50px;
-  padding: 10px 10px;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  font-size: 10px;
-  transition: all 0.3s ease;
-   }
-
-   #placeholders > .opmerkingen > input {
-    display: grid;
-    grid-template-columns: repeat(2 , 2fr);
-    height: 100px;
-    width: 500px;
-   }
-
-  #placeholders > section > input {
-    height: 50px;
-    width: 200px;
-    font-size: 29px;
-  }
-
-  .reserveh1 {
+.reserveh1 {
     display: flex;
     justify-self: center;
     font-family: Rubik Mono One, sans-serif;
@@ -941,4 +1022,27 @@ footer {
     background-color: #661e04;
   }
 
+   .reserveimg {
+    display: flex;
+    justify-self: center;
+    margin: 50px;
+    width: 40%;
+    border-radius: 20px;
+   }
+
+footer {
+    padding: 1.2rem 2rem;
+  }
+
+  footer > #footerLogoEnText > section > article > p {
+    font-size: 1rem;
+  }
+
+  footer > #footerLogoEnText > #footerFoto {
+    width: 18vw;
+  }
+
+  footer > #namen > p {
+    font-size: 1.1rem;
+  }
 }
