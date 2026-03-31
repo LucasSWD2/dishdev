@@ -777,6 +777,8 @@ footer {
 
  #headernav > nav {
    display: flex;
+   position: relative;
+   bottom: 105px;
    margin-left: 40%;
    gap: 50px;
 
