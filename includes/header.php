@@ -14,8 +14,8 @@
     <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
   </section>
 
-  <section id="Headernav">
-    <nav id="navMenu">
+  <section id="headernav">
+    <nav>
       <a href="index.php">Home</a>
       <a href="reservering.php">Reservatie</a>
       <a href="menu.php">Menu</a>

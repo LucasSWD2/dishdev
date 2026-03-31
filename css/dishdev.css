@@ -21,7 +21,7 @@ img {
   display: block;
 }
 
-#Headernav {
+#headernav {
   display: none;
 }
 
@@ -738,6 +738,56 @@ footer {
       display: none;
     }
 
+ header {
+   Background-color: #101010;
+   height: 7rem;
+   display: flex;
+   
+   }
+
+   #headernav {
+    display: flex;
+   }
+
+   #headernav > nav > a {
+    color: white;
+    text-decoration: none ;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 30px;
+    
+   }
+
+
+   #headerlogos > img {
+    margin-left: 25px; 
+    width: 150px; 
+    margin-top: -2px;
+   }
+
+
+
+ #headernav nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+ #headernav > nav {
+   display: flex;
+   margin-left: 40%;
+   gap: 50px;
+
+   }
+
+
+#headernav nav a:hover {
+  background-color: #922C06;
+  color: white;
+  border-radius: 5px;
+}
 
 
 
