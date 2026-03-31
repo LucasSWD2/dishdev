@@ -56,6 +56,7 @@ img {
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
+    flex-direction: column ;
   }
 
 #footerFoto > img {
@@ -717,173 +718,122 @@ footer {
 @media (min-width: 768px) {
 
 
-  #vacaturesCont {
-    width: 90vw;
-    row-gap: 1.5vh;
-    margin: 3vh auto;
-  }
+    body {
+      overflow-x: hidden;
 
-  #vacatureImg {
-    display: none;
-  }
+    }
 
-  #vacatureHead > h1 {
-    font-size: 1.8rem;
-    padding-top: 1.5rem;
-  }
+    #bodykleur {
+    background: white;
+    border: 50px solid #922C06;
+      
 
-  #vacatureBarKokBed > h1 {
-    font-size: 1.5rem;
-  }
+      
+    }
+    
+   .Lijn {
 
-  #vacatureTekst {
-    width: 75%;
-  }
+      display: none;
+    }
 
-  #vacatureTekst > p {
-    font-size: 1rem;
-  }
+  header {
+   Background-color: #101010;
+   height: 7rem;
+   display: flex;
+   flex-direction: row;
+   
+   }
 
-  #vacatureButtonTekst {
-    width: 75%;
-  }
 
-  #vacatureButtonTekst > p {
-    font-size: 1rem;
-  }
+   #Headernav > nav > a {
+    color: white;
+    text-decoration: none ;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 30px;
+    
+   }
 
-  #vacatureButtons > form > button {
-    font-size: 0.85rem;
-    padding: 0.5rem 1.4rem;
-  }
 
-  #form {
-    width: 50%;
-  }
+   #headerlogos > img {
+    margin-left: 25px; 
+    width: 150px; 
+    margin-top: -2px;
+   }
 
-  #form > form {
-    max-width: 420px;
-    margin: 0 auto;
-  }
 
-   .gridCont {
-    display: grid;
-    grid-template-areas:
-      "img1 tekst1"
-      "naviTekst1 tekst1"
-      "img2 tekst2"
-      "naviTekst2 tekst2"
-      "img3 tekst3"
-      "naviTekst3 tekst3"
-      "img4 tekst4"
-      "naviTekst4 tekst4";
-    grid-template-columns: 1fr 1fr;
-    width: 90vw;
-    margin: 3vh auto;
-    row-gap: 0;
-  }
 
-  #naviButton1,
-  #naviButton2,
-  #naviButton3,
-  #naviButton4 {
-    display: none;
-  }
-
-  #desktopHomeText1 {
-    grid-area: tekst1;
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-
-  #desktopHomeText2 {
-    grid-area: tekst2;
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-
-  #desktopHomeText3 {
-    grid-area: tekst3;
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-
-  #desktopHomeText4 {
-    grid-area: tekst4;
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
-
-  #desktopHomeText1 > a,
-  #desktopHomeText2 > a,
-  #desktopHomeText3 > a,
-  #desktopHomeText4 > a {
-    text-decoration: none;
-    color: #101010;
-    font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
-  }
-
-  #naviTekst1 {
-    grid-area: naviTekst1;
-  }
-
-  #naviTekst2 {
-    grid-area: naviTekst2;
-  }
-
-  #naviTekst3 {
-    grid-area: naviTekst3;
-  }
-
-  #naviTekst4 {
-    grid-area: naviTekst4;
-  }
-
-  #naviTekst1 > h1,
-  #naviTekst2 > h1,
-  #naviTekst3 > h1,
-  #naviTekst4 > h1 {
-    font-size: 1.2rem;
-  }
-
-  #naviImg1 > a > img,
-  #naviImg2 > a > img,
-  #naviImg3 > a > img,
-  #naviImg4 > a > img {
-    width: 100%;
-  }
-
-  #openingstijdenCont {
-  width: 90vw;
-  margin: 3vh auto;
-  padding-bottom: 2rem;
+ #Headernav nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
 }
- #openingstijdenImg > img {
-  width: 100%;
-  height: 120px;
+
+ #Headernav > nav {
+   display: flex;
+   margin-left: 70%;
+   gap: 50px;
+   margin-top: 1.5rem;
+
+
+   }
+
+
+#Headernav nav a:hover {
+  background-color: #922C06;
+  color: white;
+  border-radius: 5px;
 }
-#openingstijdenImg {
-  padding: 2rem 2rem 1rem;
-}
- 
-#openingstijdenImg > img {
-  width: 70%;
-}
- 
-#openingstijdenTabel {
-  padding: 1rem 4rem 2rem;
+
+footer {
+  background-color: #101010;
+  padding: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
 }
-#openingstijdenTabel > table {
-  margin: 0 auto;
-  width: 40%;
+
+footer {
+  background-color: #101010;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
+
+footer > #footerLogoEnText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer > #footerLogoEnText > section > article > p {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+footer > #footerLogoEnText > section > img {
+  width: 100%;
+  height: auto;
+}
+
+footer > #namen > p {
+  color: #ffffff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+   .hamburger-menu, .sidebar {
+    display: none;
+   }
+
 
 #deskmenuimg {
     display: grid;
@@ -1025,14 +975,69 @@ display: none;
     font-size: 35px;
      font-family: 'Rubik Mono One', sans-serif;
   }
-    
- 
-#openingstijdenTabel > table > tbody > tr > td {
-  font-size: 1.3rem;
-  padding: 0.4rem 3rem;
-}
 
-.reserveh1 {
+
+   #innerkleur {
+    background: white;
+    border: 50px solid #922C06;
+      
+    }
+  
+
+  #menutitle {
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 35px;
+     font-family: 'Rubik Mono One', sans-serif;
+  }
+
+
+
+   .reserveimg {
+    display: flex;
+    justify-self: center;
+    margin: 50px;
+    width: 40%;
+    border-radius: 20px;
+   }
+
+   #placeholders {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+   }
+
+   #placeholders > section > label  {
+    font-size: 40px;
+    font-family: Rubik Mono One, sans-serif;
+   }
+
+   #placeholders > section {
+  margin-bottom: 75px;
+  margin-left: 0px;
+  margin-top: 50px;
+  padding: 10px 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 10px;
+  transition: all 0.3s ease;
+   }
+
+   #placeholders > .opmerkingen > input {
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    height: 100px;
+    width: 500px;
+   }
+
+  #placeholders > section > input {
+    height: 50px;
+    width: 200px;
+    font-size: 29px;
+  }
+
+  .reserveh1 {
     display: flex;
     justify-self: center;
     font-family: Rubik Mono One, sans-serif;
@@ -1061,27 +1066,4 @@ display: none;
     background-color: #661e04;
   }
 
-   .reserveimg {
-    display: flex;
-    justify-self: center;
-    margin: 50px;
-    width: 40%;
-    border-radius: 20px;
-   }
-
-footer {
-    padding: 1.2rem 2rem;
-  }
-
-  footer > #footerLogoEnText > section > article > p {
-    font-size: 1rem;
-  }
-
-  footer > #footerLogoEnText > #footerFoto {
-    width: 18vw;
-  }
-
-  footer > #namen > p {
-    font-size: 1.1rem;
-  }
 }
