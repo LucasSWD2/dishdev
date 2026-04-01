@@ -204,6 +204,7 @@ header {
   width: 80%;
   height: auto;
   margin-top: 2vh;
+  border-radius: 20px;
 }
 
 #vacatureHead {
@@ -544,13 +545,13 @@ header {
     padding: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
     border: 1px solid #eee;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'rubik', sans-serif;
   }
 
   .naam {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .prijs {
@@ -724,10 +725,6 @@ header {
 }
 
 
-
-
-
-
 #footerText {
     color: white;
     font-family: Rubik mono One, sans-serif;
@@ -833,21 +830,23 @@ header > section:first-of-type {
 
 
 #deskheaderlogos .Logo {
-    height: 80px; 
+    height: 70px; 
     width: auto;
     display: block;
+    margin-right: 12vh;
 }
 
 
 #Headernav {
     display: flex;
     gap: 50px;
+    margin-left: 10vh;
 }
 
 #Headernav a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     text-transform: uppercase; 
     letter-spacing: 1px;
@@ -1146,7 +1145,7 @@ header > section:first-of-type {
 }
 
 .menu > section > span {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -1225,7 +1224,7 @@ display: none;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
      font-family: 'Rubik Mono One', sans-serif;
   }
     
@@ -1250,7 +1249,7 @@ display: none;
    }
 
    #placeholders > section > label  {
-    font-size: 40px;
+    font-size: 25px;
     font-family: Rubik Mono One, sans-serif;
    }
 
@@ -1272,6 +1271,22 @@ display: none;
     width: 500px;
    }
 
+  #placeholders > .email > input {
+    width: 400px;
+   }
+
+    #placeholders > .telefoon > input {
+    width: 300px;
+   }
+
+      #placeholders > .aantal > input {
+    width: 100px;
+   }
+
+        #placeholders > .tijd > input {
+    width: 100px;
+   }
+
   #placeholders > section > input {
     height: 50px;
     width: 200px;
@@ -1282,24 +1297,23 @@ display: none;
     display: flex;
     justify-self: center;
     font-family: Rubik Mono One, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
   }
 
      .reservebtn {
     display: flex;
     justify-self: right;
     position: relative;
-    bottom: 10vw;
-    margin-left: 38%;
+    bottom: 225px;
+    margin-left: 37.7%;
     background-color: #922C06; 
     color: white; 
     border: none; 
     padding: 25px 50px; 
     border-radius: 10px; 
-    font-size: 30px; 
+    font-size: 20px; 
     font-weight: bold;
     cursor: pointer; 
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
     transition: all 0.2s ease-in-out;
 }
 
