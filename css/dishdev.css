@@ -632,48 +632,67 @@ img {
 
 
 
-footer {
-  background-color: #101010;
-  padding: 1rem;
+#footerText {
+    color: white;
+    font-family: Rubik mono One, sans-serif;
+    font-size: 15px;
+ }
+   #namen {
+    color: white;
+    font-family: Rubik mono One, sans-serif;
+    font-size: 10px;
+ }
+
+   footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-direction: column ;
+    background-color: #101010;
+    gap: 1vh;
+  }
+
+#footerFoto > img {
   display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
+  justify-self: right;
+  width: 30vw;
+ }
 
-footer {
-  background-color: #101010;
-  padding: 1rem;
+ #footericons {
   display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
+  gap: 5vw;
+ }
 
-footer > #footerLogoEnText {
+ #footericons > img {
+
+    width: 20px;
+   }
+
+   #footerTextEnIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+   }
+
+
+ 
+   #footerLogoEnText {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    color: white;
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 15px;
+
+ }
+
+ #Footerimg > img {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-}
+  justify-self: right;
+  width: 25%;
+ }
 
-footer > #footerLogoEnText > section > article > p {
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
-
-footer > #footerLogoEnText > section > img {
-  width: 100%;
-  height: auto;
-}
-
-footer > #namen > p {
-  color: #ffffff;
-  font-family: 'Rubik Mono One', sans-serif;
-  font-size: 0.95rem;
-  text-align: center;
-}
 
 @media (min-width: 768px) {
 
@@ -1038,11 +1057,25 @@ footer {
     font-size: 1rem;
   }
 
+  #footerLogoEnText {
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  footer > #footerLogoEnText > #footerFoto > img{
+    width: 30%;
+  }
+
   footer > #footerLogoEnText > #footerFoto {
-    width: 18vw;
+    display: flex;
+    justify-content: right;
   }
 
   footer > #namen > p {
     font-size: 1.1rem;
+  }
+
+  #footericons > img {
+    width: 5%;
   }
 }
