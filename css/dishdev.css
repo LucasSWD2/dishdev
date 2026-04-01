@@ -652,6 +652,10 @@ img {
     gap: 1vh;
   }
 
+  #footerText {
+    font-size: 0.6rem;
+  }
+
 #footerFoto > img {
   display: flex;
   justify-self: right;
@@ -683,7 +687,6 @@ img {
     gap: 2rem;
     color: white;
     font-family: Rubik Mono One, sans-serif;
-    font-size: 15px;
 
  }
 
