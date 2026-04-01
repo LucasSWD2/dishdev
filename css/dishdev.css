@@ -17,6 +17,27 @@ img {
 }
 
 
+#headernav {
+  display: none;
+}
+
+header {
+   Background-color: #101010;
+   flex-direction: column;
+   }
+
+  #headerlogos  {
+  width: 40%;
+  display: flex;
+  margin-left: 66%;
+   
+   }
+
+   #headerlogos > img {
+    width: 115px;
+   }
+
+
 *, *::after,
   *::before {
   box-sizing: border-box;
@@ -24,7 +45,7 @@ img {
 
  :root {
   --bar-width:100px;
-  --bar-height: 18px;
+  --bar-height: 15px;
   --hamburger-gap: 18px;
   --foreground: white;
   --background: black;
@@ -44,8 +65,8 @@ img {
   width: max-content;
   position: absolute;
   justify-self: right;
-  top: 30px;
-  left: 20px;
+  top: 0.6rem;
+  left: 10px;
   z-index: 2;
   cursor: pointer;
  }
@@ -111,8 +132,8 @@ img {
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
-  width: 900px;
-  height: 500px;
+  width: 410px;
+  height: 410px;
  }
 
  .hamburger-menu:has(input:checked) + .sidebar {
@@ -121,15 +142,10 @@ img {
 
  }
 
- .sidebar > nav > a {
-  font-family: 'Rubik', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
- }
 
   .sidebar > nav > a {
   font-family: 'Rubik', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
 
@@ -141,16 +157,18 @@ img {
   margin-bottom: 150px;
   margin-left: 15px;
   gap: 35px;
+  font-weight: bold;
  }
 
  .sidebar > nav > img {
-  width: 35%;
+  width: 250px;
   display: flex;
   justify-self: center;
   position: relative;
-  bottom: 325px;
-  margin-left: 50px;
+  bottom: 250px;
+  margin-left: 100px;
  }
+
 
 #vacaturesCont {
   display: grid;
@@ -619,18 +637,6 @@ img {
     color: #555;
   }
 
-   #placeholders {
-
-    display: grid;
-    justify-content: center;
-    margin: 35px;
-   }
-
-   #placeholders > section > label {
-    font-size: 40px;
-    margin-right: 20px;
-    font-family: 'rubik', sans-serif;
-   }
 
    #deskmenuimg2 {
     display: none;
@@ -641,57 +647,80 @@ img {
     display: none;
   }
 
+  #placeholders {
 
-   #placeholders > section {
+    display: grid;
+    justify-content: center;
+    margin: 35px;
+   }
 
-    margin-top: 30px;
+   #placeholders > section > label {
+    font-size: 20px;
+    font-family: 'rubik', sans-serif;
+    font-weight: bold;
+   }
+
+
+#placeholders > section {
+    margin-top: 20px;
+    margin-left: 0px;
    }
 
    #placeholders > .opmerkingen > input {
     
       display: flex;
-      width: 200px;
-      height: 75px;
+      width: 250px;
+      height: 100px;
 
    }
 
    #placeholders > section > input {
-
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
   flex: 1;
   padding: 15px 15px;
   border: 2px solid #ccc;
   border-radius: 8px;
-  font-size: 30px;
-  margin-bottom: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
   transition: all 0.3s ease;
 
    }
 
-   .reserveimg {
+   .reserveh1 {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     margin-top: 30px;
-    border-radius: 20px;
-    width: 90%;
+    font-size: 40px;
    }
+
+ .reserveimg {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 20px;
+}
 
    .reservebtn {
     display: flex;
     justify-self: left;
     position: relative;
-    bottom: 50px;
-    margin-left: 50px ;
+    bottom: 25px;
+    margin-left: 29% ;
     background-color: #922C06; 
     color: white; 
     border: none; 
     padding: 20px 40px; 
     border-radius: 10px; 
-    font-size: 30px; 
+    font-size: 20px; 
     font-weight: bold;
     cursor: pointer; 
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
     transition: all 0.2s ease-in-out;
 }
+
+
+
 
 
 
@@ -762,6 +791,10 @@ img {
 
 @media (min-width: 768px) {
 
+
+
+
+
 #openingstijdenImg {
     display: flex;
     align-items: center;
@@ -810,10 +843,10 @@ img {
     padding-top: 1.5rem;
 }
 
-}
 
-
-@media (min-width: 768px){
+  .hamburger-menu {
+    display: none;
+  }
 
   #vacaturesCont {
     width: 90vw;

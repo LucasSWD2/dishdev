@@ -10,11 +10,13 @@
 
 <body>
 <header>
-  <section id="headerlogos">
+
+    <section id="headerlogos">
     <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-  </section>
+    </section>
 
   <section id="headernav">
+
     <nav>
       <a href="index.php">Home</a>
       <a href="reservering.php">Reservatie</a>
