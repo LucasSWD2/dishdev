@@ -31,9 +31,9 @@ img {
    }
 
   #headerlogos {
-  width: 30%;
+  width: 31%;
   display: flex;
-  margin-left: 31vh;
+  margin-left: 66%;
 
   
 
@@ -192,8 +192,8 @@ footer {
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
-  width: 400px;
-  height: 400px;
+  width: 410px;
+  height: 410px;
  }
 
  .hamburger-menu:has(input:checked) + .sidebar {
@@ -644,9 +644,9 @@ footer {
    }
 
    #placeholders > section > label {
-    font-size: 40px;
-    margin-right: 20px;
+    font-size: 20px;
     font-family: 'rubik', sans-serif;
+    font-weight: bold;
    }
 
    #deskmenuimg2 {
@@ -660,57 +660,57 @@ footer {
 
 
    #placeholders > section {
-
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
    }
 
    #placeholders > .opmerkingen > input {
     
       display: flex;
-      width: 450px;
-      height: 150px;
+      width: 250px;
+      height: 100px;
 
    }
 
    #placeholders > section > input {
-
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
   flex: 1;
   padding: 15px 15px;
   border: 2px solid #ccc;
   border-radius: 8px;
-  font-size: 30px;
-  margin-bottom: 40px;
+  font-size: 18px;
+  margin-bottom: 15px;
   transition: all 0.3s ease;
 
    }
 
    .reserveh1 {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     margin-top: 30px;
     font-size: 40px;
    }
 
-   .reserveimg {
-    display: flex;
-    justify-self: center;
-    margin-top: 30px;
-    border-radius: 20px;
-    width: 90%;
-   }
+ .reserveimg {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 20px;
+}
 
    .reservebtn {
     display: flex;
     justify-self: left;
     position: relative;
-    bottom: 50px;
-    margin-left: 50px ;
+    bottom: 25px;
+    margin-left: 29% ;
     background-color: #922C06; 
     color: white; 
     border: none; 
     padding: 20px 40px; 
     border-radius: 10px; 
-    font-size: 30px; 
+    font-size: 20px; 
     font-weight: bold;
     cursor: pointer; 
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
@@ -760,8 +760,10 @@ footer {
    }
 
    #headerlogos {
-    position: relative;
-    right: 300px;
+  display: block;
+  margin: 50px 0 50px 0; 
+  width: 40%;
+  border-radius: 20px;
    }
 
 
