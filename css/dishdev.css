@@ -30,13 +30,12 @@ img {
    flex-direction: column;
    }
 
-   #headerlogos {
+  #headerlogos {
+  width: 30%;
+  display: flex;
+  margin-left: 31vh;
 
-   display: flex;
-   justify-self: right;
-   gap: 21rem ;
-   width: 25%;
-   padding-left: 10px;
+  
 
    
    }
@@ -106,7 +105,7 @@ footer {
 
  :root {
   --bar-width:100px;
-  --bar-height: 18px;
+  --bar-height: 15px;
   --hamburger-gap: 18px;
   --foreground: white;
   --background: black;
@@ -126,8 +125,8 @@ footer {
   width: max-content;
   position: absolute;
   justify-self: right;
-  top: 30px;
-  left: 20px;
+  top: 0.6rem;
+  left: 10px;
   z-index: 2;
   cursor: pointer;
  }
@@ -193,8 +192,8 @@ footer {
   padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
-  width: 900px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
  }
 
  .hamburger-menu:has(input:checked) + .sidebar {
@@ -203,15 +202,10 @@ footer {
 
  }
 
- .sidebar > nav > a {
-  font-family: 'Rubik', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
- }
 
   .sidebar > nav > a {
   font-family: 'Rubik', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
 
@@ -223,15 +217,16 @@ footer {
   margin-bottom: 150px;
   margin-left: 15px;
   gap: 35px;
+  font-weight: bold;
  }
 
  .sidebar > nav > img {
-  width: 35%;
+  width: 250px;
   display: flex;
   justify-self: center;
   position: relative;
-  bottom: 325px;
-  margin-left: 50px;
+  bottom: 250px;
+  margin-left: 100px;
  }
 
 #vacaturesCont {
@@ -764,11 +759,14 @@ footer {
     
    }
 
+   #headerlogos {
+    position: relative;
+    right: 300px;
+   }
+
 
    #headerlogos > img {
-    margin-left: 25px; 
     width: 150px; 
-    margin-top: -2px;
    }
 
 
@@ -786,7 +784,7 @@ footer {
    display: flex;
    position: relative;
    bottom: 105px;
-   margin-left: 40%;
+   margin-left: 25%;
    gap: 50px;
 
    }
@@ -881,6 +879,7 @@ footer > #namen > p {
     margin: 10px;
     border-radius: 20px;
 }
+
 
 #mencontent , #menunamen , #menunamen2 {
   display:none;
@@ -1003,7 +1002,7 @@ display: none;
 
   #menutitle {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     margin-top: 20px;
     font-size: 35px;
      font-family: 'Rubik Mono One', sans-serif;
@@ -1011,13 +1010,12 @@ display: none;
 
 
 
-   .reserveimg {
-    display: flex;
-    justify-self: center;
-    margin: 50px;
-    width: 40%;
-    border-radius: 20px;
-   }
+.reserveimg {
+  display: block;
+  margin: 50px auto;
+  width: 40%;
+  border-radius: 20px;
+}
 
    #placeholders {
     display: grid;
@@ -1026,7 +1024,7 @@ display: none;
    }
 
    #placeholders > section > label  {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Rubik Mono One, sans-serif;
    }
 
@@ -1037,7 +1035,7 @@ display: none;
   padding: 10px 10px;
   border: 2px solid #ccc;
   border-radius: 8px;
-  font-size: 10px;
+  font-size: 5px;
   transition: all 0.3s ease;
    }
 
@@ -1051,12 +1049,12 @@ display: none;
   #placeholders > section > input {
     height: 50px;
     width: 200px;
-    font-size: 29px;
+    font-size: 20px;
   }
 
   .reserveh1 {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     font-family: Rubik Mono One, sans-serif;
     font-size: 50px;
   }
@@ -1065,8 +1063,8 @@ display: none;
     display: flex;
     justify-self: right;
     position: relative;
-    bottom: 9vw;
-    margin-right: 35%;
+    bottom: 11vw;
+    margin-left: 35%;
     background-color: #922C06; 
     color: white; 
     border: none; 
