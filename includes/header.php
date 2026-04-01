@@ -11,22 +11,26 @@
 <body>
 <header>
 
-    <section id="headerlogos">
-    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
-    </section>
 
-  <section id="headernav">
-
-    <nav>
+  <section>
+    <nav id="Headernav">
       <a href="index.php">Home</a>
       <a href="reservering.php">Reservatie</a>
       <a href="menu.php">Menu</a>
       <a href="Vacatures.php">Vacatures</a>
       <a href="openingstijden.php">Openingstijden</a>
     </nav>
+    <section id="deskheaderlogos">
+    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+    </section>
   </section>
 
     <section>
+      
+    <section id="headerlogos">
+    <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
+    </section>
+
     <label class="hamburger-menu">
       <input type="checkbox" name="" id="">
     </label>

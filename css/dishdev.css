@@ -16,8 +16,12 @@ img {
   display: block;
 }
 
+#deskheaderlogos {
+  display: none;
+}
 
-#headernav {
+
+#Headernav {
   display: none;
 }
 
@@ -27,7 +31,7 @@ header {
    }
 
   #headerlogos  {
-  width: 40%;
+  width: 42%;
   display: flex;
   margin-left: 66%;
    
@@ -794,8 +798,70 @@ header {
 @media (min-width: 768px) {
 
 
+#headerlogos {
+  display: none;
+}
 
 
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+
+.hamburger-menu, .sidebar, #headerlogos {
+    display: none;
+}
+
+#deskheaderlogos {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding-left: 20px;
+}
+
+
+header > section:first-of-type {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+#deskheaderlogos .Logo {
+    height: 80px; 
+    width: auto;
+    display: block;
+}
+
+
+#Headernav {
+    display: flex;
+    gap: 50px;
+}
+
+#Headernav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+
+#Headernav a:hover {
+    color: #922C06;
+    border-bottom: 2px solid #661e04;
+}
+  
 
 #openingstijdenImg {
     display: flex;
@@ -1157,7 +1223,7 @@ display: none;
 
   #menutitle {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     margin-top: 20px;
     font-size: 35px;
      font-family: 'Rubik Mono One', sans-serif;
@@ -1169,7 +1235,50 @@ display: none;
   padding: 0.4rem 3rem;
 }
 
-.reserveh1 {
+.reserveimg {
+    display: block; 
+    margin: 50px auto; 
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+   }
+
+   #placeholders {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+
+   }
+
+   #placeholders > section > label  {
+    font-size: 40px;
+    font-family: Rubik Mono One, sans-serif;
+   }
+
+   #placeholders > section {
+  margin-bottom: 75px;
+  margin-left: 0px;
+  margin-top: 50px;
+  padding: 10px 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 10px;
+  transition: all 0.3s ease;
+   }
+
+   #placeholders > .opmerkingen > input {
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    height: 100px;
+    width: 500px;
+   }
+
+  #placeholders > section > input {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .reserveh1 {
     display: flex;
     justify-self: center;
     font-family: Rubik Mono One, sans-serif;
@@ -1180,8 +1289,8 @@ display: none;
     display: flex;
     justify-self: right;
     position: relative;
-    bottom: 7.5vw;
-    margin-right: 35%;
+    bottom: 10vw;
+    margin-left: 38%;
     background-color: #922C06; 
     color: white; 
     border: none; 
@@ -1198,13 +1307,6 @@ display: none;
     background-color: #661e04;
   }
 
-   .reserveimg {
-    display: flex;
-    justify-self: center;
-    margin: 50px;
-    width: 40%;
-    border-radius: 20px;
-   }
 
 footer {
     padding: 1.2rem 2rem;
