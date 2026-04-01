@@ -672,8 +672,8 @@ footer {
    #placeholders > .opmerkingen > input {
     
       display: flex;
-      width: 200px;
-      height: 75px;
+      width: 450px;
+      height: 150px;
 
    }
 
@@ -687,6 +687,13 @@ footer {
   margin-bottom: 40px;
   transition: all 0.3s ease;
 
+   }
+
+   .reserveh1 {
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+    font-size: 40px;
    }
 
    .reserveimg {
@@ -1058,7 +1065,7 @@ display: none;
     display: flex;
     justify-self: right;
     position: relative;
-    bottom: 7.5vw;
+    bottom: 9vw;
     margin-right: 35%;
     background-color: #922C06; 
     color: white; 
