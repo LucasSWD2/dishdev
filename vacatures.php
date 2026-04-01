@@ -43,7 +43,7 @@ if (isset($_POST['functie'])) {
             <h1>Baan?</h1>
         </article>
         <article id="vacatureTekst">
-            <p>Lijkt het je leuk om bij ons te werken? Dat is het ook. En gelukkig (voor jou) zijn wij altijd op zoek naar nieuwe enthousiaste medewerkers. op elk niveau kun je bij ons veel leren. Je krijgt goede begeleiding. n reken maar dat je in een groeiende restaurantketen genoeg kansen krijgt óm jouw droombaan te vinden</p>
+            <p>Lijkt het je leuk om bij ons te werken? Dat is het ook. En gelukkig (voor jou) zijn wij altijd op zoek naar nieuwe enthousiaste medewerkers. op elk niveau kun je bij ons veel leren. Je krijgt goede begeleiding. En reken maar dat je in een groeiende restaurantketen genoeg kansen krijgt óm jouw droombaan te vinden</p>
         </article>
         <section id="vacatureButtons">
             <form method="POST">

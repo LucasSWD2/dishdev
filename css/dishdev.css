@@ -172,11 +172,16 @@ img {
 
 #vacatureImg {
   grid-area: img;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #vacatureImg > img {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin-top: 2vh;
 }
 
 #vacatureHead {
@@ -481,6 +486,8 @@ img {
 
 #openingstijdenTabel {
   padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #openingstijdenTabel > table {
@@ -501,6 +508,12 @@ img {
 
 #openingstijdenTabel > table > tbody > tr.weekend > td {
   padding-top: 1.5rem;
+}
+
+#map {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
 }
 
 .menu section {
@@ -707,7 +720,7 @@ img {
   }
 
   #vacatureImg {
-    display: none;
+  display: none;
   }
 
   #vacatureHead > h1 {
@@ -763,7 +776,7 @@ img {
     grid-template-columns: 1fr 1fr;
     width: 90vw;
     margin: 3vh auto;
-    row-gap: 0;
+    row-gap: 1em;
   }
 
   #naviButton1,
@@ -838,7 +851,8 @@ img {
   #naviImg2 > a > img,
   #naviImg3 > a > img,
   #naviImg4 > a > img {
-    width: 100%;
+    width: 70%;
+    margin-left: 9vw;
   }
 
   #openingstijdenCont {
@@ -862,10 +876,17 @@ img {
   padding: 1rem 4rem 2rem;
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 #openingstijdenTabel > table {
   margin: 0 auto;
   width: 40%;
+}
+
+#map {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 25vw;
 }
 
 #deskmenuimg {
