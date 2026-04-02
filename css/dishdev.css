@@ -791,8 +791,279 @@ header {
   width: 25%;
  }
 
-
 @media (min-width: 768px) {
+
+body {
+  overflow-x: hidden;
+  background-color: #922C06;
+  font-family: 'Rubik', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#deskheaderlogos {
+  display: none;
+}
+
+
+#Headernav {
+  display: none;
+}
+
+header {
+   Background-color: #101010;
+   flex-direction: column;
+   }
+
+  #headerlogos  {
+  width: 42%;
+  display: flex;
+  margin-left: 83%;
+   
+   }
+
+   #headerlogos > img {
+    width: 115px;
+   }
+
+
+*, *::after,
+  *::before {
+  box-sizing: border-box;
+ }
+
+ :root {
+  --bar-width:100px;
+  --bar-height: 15px;
+  --hamburger-gap: 18px;
+  --foreground: white;
+  --background: black;
+  --hamburger-margin:6px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+
+ }
+
+ .hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--hamburger-gap);
+  background: #101010;
+  width: max-content;
+  position: absolute;
+  justify-self: right;
+  top: 0.6rem;
+  left: 10px;
+  z-index: 2;
+  cursor: pointer;
+ }
+
+ .hamburger-menu:has(input:checked){
+  --foreground:white  ;
+  --background:#101010;
+ }
+
+ .hamburger-menu:has(input:focus-visible)::before,
+ .hamburger-menu:has(input:focus-visible)::after,
+ .hamburger-menu input:focus-visible {
+  border: 1px solid var(--background);
+  box-shadow: 0 0 0 1px var(--foreground);
+
+ }
+
+ .hamburger-menu::before,
+ .hamburger-menu::after,
+ .hamburger-menu input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  border-radius: 9999px;
+  transform-origin: left center ;
+  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing);
+
+ }
+
+
+
+ .hamburger-menu input {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+ }
+
+ .hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / -2);
+ }
+
+ .hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / 2);
+ }
+
+ .hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+ }
+
+ .sidebar {
+  position: absolute;
+  transition:  translate var(--animation-timing);
+  translate: -100%;
+  padding: 0.5rem 1rem;
+  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  background-color: var(--foreground);
+  color: var(--background);
+  width: 900px;
+  height: 410px;
+ }
+
+ .hamburger-menu:has(input:checked) + .sidebar {
+  translate: 0;
+  background: #101010;
+
+ }
+
+
+  .sidebar > nav > a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+
+ }
+
+ .sidebar > nav {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  margin-bottom: 150px;
+  margin-left: 15px;
+  gap: 35px;
+  font-weight: bold;
+ }
+
+ .sidebar > nav > img {
+  width: 400px;
+  display: flex;
+  justify-self: center;
+  position: relative;
+  bottom: 350px;
+  margin-left: 100px;
+ }
+
+ #footerFoto {
+  margin-left: 300px;
+ }
+
+
+
+  #placeholders {
+
+    display: grid;
+    justify-content: center;
+    margin: 35px;
+   }
+
+   #placeholders > section > label {
+    font-size: 30px;
+    font-family: 'rubik', sans-serif;
+    font-weight: bold;
+   }
+
+
+#placeholders > section {
+    margin-top: 20px;
+
+   }
+
+  #placeholders > section > input {
+    width: 500px;
+  }
+
+    #placeholders > .tijd > input {
+    width: 100px;
+  }
+
+      #placeholders > .aantal > input {
+    width: 100px;
+  }
+
+        #placeholders > .datum > input {
+    width: 200px;
+  }
+
+   #placeholders > .opmerkingen > input {
+    
+      display: flex;
+      width: 500px;
+      height: 100px;
+
+   }
+
+   #placeholders > section > input {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  flex: 2;
+  padding: 15px 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+
+   }
+
+   .reserveh1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+   }
+
+ .reserveimg {
+  display: block;
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 20px;
+}
+
+   .reservebtn {
+    display: flex;
+    justify-self: left;
+    position: relative;
+    bottom: 25px;
+    margin-left: 40% ;
+    background-color: #922C06; 
+    color: white; 
+    border: none; 
+    padding: 20px 40px; 
+    border-radius: 10px; 
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 1024px) {
 
 
 #headerlogos {
@@ -1336,7 +1607,7 @@ footer {
   }
 
   footer > #footerLogoEnText > #footerFoto > img{
-    width: 30%;
+    width: 40%;
   }
 
   footer > #footerLogoEnText > #footerFoto {
