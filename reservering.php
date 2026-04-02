@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="css/dishdev.css">
-    <script src="js/script.js" defer></script>
+    <script src="script/reservering.js" defer></script>
 </head>
 <?php
 include "includes/header.php";
@@ -68,6 +68,7 @@ include "includes/header.php";
 </section>
 
 <button class="reservebtn" type="Button">Sumbit</button>
+<div id="popup" class="popup"></div>
 
 </section>
 

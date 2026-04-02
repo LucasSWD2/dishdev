@@ -791,6 +791,23 @@ header {
   width: 25%;
  }
 
+ #message-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black; 
+    transition: opacity 0.3s ease;
+}
+#message-container.success {
+    color: rgb(0, 0, 0);
+}
+#message-container.error {
+    color: #922C06;
+}
+
 @media (min-width: 768px) {
 
 body {
@@ -1054,6 +1071,24 @@ header {
     cursor: pointer; 
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
     transition: all 0.2s ease-in-out;
+}
+
+#message-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black; 
+    transition: opacity 0.3s ease;
+}
+#message-container.success {
+    color: rgb(0, 0, 0);
+}
+#message-container.error {
+    color: #922C06;
 }
 
 .menu section {
@@ -1595,6 +1630,26 @@ display: none;
     cursor: pointer; 
     transition: all 0.2s ease-in-out;
 }
+
+#message-container {
+    position: relative;
+    bottom: 290px;
+    left: 20%;
+    font-size: 30px;
+    font-family: 'rubik', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black; 
+    transition: opacity 0.3s ease;
+}
+#message-container.success {
+    color: rgb(0, 0, 0);
+}
+#message-container.error {
+    color: #922C06;
+}
+
 
   .reservebtn:hover {
     background-color: #661e04;
