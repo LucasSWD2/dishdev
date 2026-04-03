@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<meta name="author" content="Lucas">
+<meta name="description" content="Bezoek Vlam & Vlees in Zoetermeer. Bekijk onze openingstijden, adresgegevens en routebeschrijving. We zijn te vinden op Promenade 12, 2711 AB Zoetermeer.">
+<meta name="keywords" content="openingstijden Vlam & Vlees, locatie steakhouse Zoetermeer, adres grill restaurant Zoetermeer, Promenade 12 2711 AB Zoetermeer, routebeschrijving Vlam & Vlees, 088-1321111, info@vlamenvleeszoetermeer.nl">
     <title>Openingstijden Vlam & Vlees</title>
     <link rel="stylesheet" href="css/openingstijden.css">
 </head>

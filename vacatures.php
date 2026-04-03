@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<meta name="author" content="Lucas">
+<meta name="description" content="Kom werken bij Vlam & Vlees in Zoetermeer! Bekijk onze openstaande vacatures en solliciteer vandaag nog. Werk in een gezellig team in ons grill restaurant.">
+<meta name="keywords" content="vacatures Vlam & Vlees, werken bij steakhouse Zoetermeer, baan grill restaurant Zoetermeer, vacatures horeca Zoetermeer, solliciteren Vlam & Vlees, Promenade 12 2711 AB Zoetermeer, 088-1321111, info@vlamenvleeszoetermeer.nl">
     <title>Vacatures Vlam & Vlees</title>
     <link rel="stylesheet" href="css/dishdev.css">
 </head>

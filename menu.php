@@ -54,7 +54,7 @@ include "includes/header.php";
   </section>
 
   <section class="menu4">
-    <span class="naam">Geroosterde paprikasoep</span>
+    <span class="naam">paprikasoep</span>
     <span class="prijs">€100</span>
     <p>Romige soep van zoete paprika met een vleugje knoflook en basilicum.</p>
   </section>
