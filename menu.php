@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vlam & vlees menu</title>
-    <link rel="stylesheet" src="css/dishdev.css">
+    <link rel="stylesheet" href="css/dishdev.css">
 </head>
 <?php
 include "includes/header.php";

@@ -10,7 +10,7 @@
 <meta name="description" content="Bezoek Vlam & Vlees in Zoetermeer. Bekijk onze openingstijden, adresgegevens en routebeschrijving. We zijn te vinden op Promenade 12, 2711 AB Zoetermeer.">
 <meta name="keywords" content="openingstijden Vlam & Vlees, locatie steakhouse Zoetermeer, adres grill restaurant Zoetermeer, Promenade 12 2711 AB Zoetermeer, routebeschrijving Vlam & Vlees, 088-1321111, info@vlamenvleeszoetermeer.nl">
     <title>Openingstijden Vlam & Vlees</title>
-    <link rel="stylesheet" href="css/openingstijden.css">
+    <link rel="stylesheet" src="css/dishdev.css">
 </head>
 <?php include "includes/header.php"; ?>
 <body>
