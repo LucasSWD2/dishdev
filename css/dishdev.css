@@ -1317,10 +1317,13 @@ body.dark #darkToggle {
     padding-top: 2rem;
   }
 
-  #map {
-    width: 90%;
-    height: auto;
-  }
+.map > iframe {
+  width: 690px;
+  height: 300px;
+  margin-left: 30px;
+
+
+}
 
 }
 
