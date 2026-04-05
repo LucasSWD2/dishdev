@@ -53,10 +53,11 @@
                     </tr>
                 </tbody>
             </table>
-            <section>
+        </section>
+
+            <section class="map">
                 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.4815227746268!2d4.486591808225991!3d52.06116511436503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c92994bf49df%3A0xa3af2d1657db3d80!2sPromenade%2012%2C%202711%20HX%20Zoetermeer!5e0!3m2!1snl!2snl!4v1775037145257!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-        </section>
  
     </main>
 </body>

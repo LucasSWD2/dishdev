@@ -570,12 +570,14 @@ body.dark #darkToggle {
 #openingstijdenImg > img {
   width: 80%;
   height: auto;
+  border-radius: 20px;
 }
 
 #openingstijdenTabel {
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 #openingstijdenTabel > table {
@@ -584,10 +586,11 @@ body.dark #darkToggle {
 
 #openingstijdenTabel > table > tbody > tr > td {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.1rem;
+  font-size: 30px;
   font-weight: bold;
   color: #101010;
   padding: 0.4rem 1rem;
+  background-color: #f5f5f5;
 }
 
 #openingstijdenTabel > table > tbody > tr.weekend {
@@ -598,10 +601,12 @@ body.dark #darkToggle {
   padding-top: 1.5rem;
 }
 
-#map {
-  width: 90%;
-  height: auto;
-  margin-left: 5%;
+.map > iframe {
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+
+  
 }
 
 .menu section {
