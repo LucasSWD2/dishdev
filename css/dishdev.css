@@ -16,6 +16,10 @@ img {
   display: block;
 }
 
+#openingstijdenImg2 {
+  display: none;
+}
+
 #deskheaderlogos {
   display: none;
 }
@@ -902,6 +906,10 @@ img {
   display: none;
 }
 
+#openingstijdenImg2 {
+  display: none;
+}
+
 header {
    Background-color: #101010;
    flex-direction: column;
@@ -1462,40 +1470,6 @@ body.dark #darkToggle {
 }
   
 
-#openingstijdenImg {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0.5rem;
-    justify-content: center;
-    padding: 1.5rem;
-}
-
- 
-#openingstijdenImg > img {
-    width: 80%;
-    height: auto;
-    margin-top: 50px;
-    border-radius: 20px;
-}
-
-
-#openingstijdenTabel {
-  display: flex;
-  justify-content: center;
-    padding: 2rem 1.5rem;
-}
-
-#openingstijdenTabel > table > tbody > tr > td {
-    justify-self: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #101010;
-    padding: 0.4rem 1rem;
-
-
-}
 
     
 #openingstijdenTabel > table > tbody > tr.weekend {
@@ -1663,28 +1637,51 @@ body.dark #darkToggle {
   height: 120px;
 }
 #openingstijdenImg {
-  padding: 2rem 2rem 1rem;
-}
- 
-#openingstijdenImg > img {
-  width: 70%;
-}
- 
-#openingstijdenTabel {
-  padding: 1rem 4rem 2rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-#openingstijdenTabel > table {
-  margin: 0 auto;
-  width: 40%;
+  display: none;
 }
 
-#map {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 25vw;
+ 
+#openingstijdenImg2 {
+  display: flex;
+  justify-content: center;
+}
+
+#openingstijdenImg2 img {
+  width: 70%;
+  height: 250px;
+}
+ 
+
+#openingstijdenTabel > table {
+  margin: 0 auto;
+  width: 46%;
+
+}
+
+
+#openingstijdenTabel > table > tbody > tr > td {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  color: #101010;
+  padding: 0.4rem 1rem;
+  background-color: #f5f5f5;
+}
+
+
+
+.map {
+display: flex;
+justify-content: center;
+}
+
+.map > iframe {
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+  margin-right: 30px;
+
+
+
 }
 
 #deskmenuimg {
@@ -1695,7 +1692,7 @@ body.dark #darkToggle {
 }
 
 #deskmenuimg > img {
-    width: 98%;
+    width: 95%;
     height: 200px;
     object-fit: cover;
     margin: 10px;

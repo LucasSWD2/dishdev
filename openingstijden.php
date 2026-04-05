@@ -19,6 +19,10 @@
         <section id="openingstijdenImg">
             <img src="images/openingstijden foto.png" alt="foto van een steak op een snijplank">
         </section>
+
+        <section id="openingstijdenImg2">
+            <img src="images/limited-time-is-running-out-clock-icon-paint-brush-banner-poster-with-transparent-background-vector.jpg" alt="foto van een steak op een snijplank">
+        </section>
  
         <section id="openingstijdenTabel">
             <table>
