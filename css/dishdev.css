@@ -1265,6 +1265,8 @@ body.dark #darkToggle {
 
  #vacatureImg > img {
     width: 60%;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   #vacatureHead > h1 {
@@ -1286,6 +1288,7 @@ body.dark #darkToggle {
   #vacatureButtons > form > button {
     font-size: 1rem;
     padding: 0.6rem 1.6rem;
+    margin-bottom: 20px;
   }
 
   #form > form > label {
