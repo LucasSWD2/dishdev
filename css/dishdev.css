@@ -41,6 +41,70 @@ header {
     width: 115px;
    }
 
+   body.dark {
+  background-color: #121212;
+  color: rgb(255, 255, 255);
+}
+
+
+body.dark a {
+  color: rgb(255, 255, 255);
+}
+
+
+body.dark #bodykleur {
+  background: #0b0b0b;
+}
+
+body.dark .menu  {
+  color: white;
+}
+
+body.dark .menu1 {
+  background: #101010;
+}
+body.dark .menu2 {
+  background: #101010;
+}
+body.dark .menu3 {
+  background: #101010;
+}
+body.dark .menu4 {
+  background: #101010;
+}
+body.dark .menu5 {
+  background: #101010;
+}
+body.dark .menu6 {
+  background: #101010;
+}
+body.dark .menu7 {
+  background: #101010;
+}
+body.dark .menu8 {
+  background: #101010;
+}
+body.dark .menu9 {
+  background: #101010;
+}
+
+#darkToggle {
+  margin-left: 150px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background: #dad8d8;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-size: 20px;
+  
+}
+
+body.dark #darkToggle {
+  background: #101010;
+  color: rgb(255, 255, 255);
+}
+
 
 *, *::after,
   *::before {
@@ -849,6 +913,69 @@ header {
     width: 115px;
    }
 
+    body.dark {
+  background-color: #121212;
+  color: rgb(255, 255, 255);
+}
+
+
+body.dark a {
+  color: rgb(255, 255, 255);
+}
+
+
+body.dark #bodykleur {
+  background: #0b0b0b;
+}
+
+body.dark .menu  {
+  color: white;
+}
+
+body.dark .menu1 {
+  background: #101010;
+}
+body.dark .menu2 {
+  background: #101010;
+}
+body.dark .menu3 {
+  background: #101010;
+}
+body.dark .menu4 {
+  background: #101010;
+}
+body.dark .menu5 {
+  background: #101010;
+}
+body.dark .menu6 {
+  background: #101010;
+}
+body.dark .menu7 {
+  background: #101010;
+}
+body.dark .menu8 {
+  background: #101010;
+}
+body.dark .menu9 {
+  background: #101010;
+}
+
+#darkToggle {
+  margin-left: 45%;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background: #dad8d8;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-size: 40px;
+  
+}
+
+body.dark #darkToggle {
+  background: #101010;
+  color: rgb(255, 255, 255);
+}
 
 *, *::after,
   *::before {
@@ -1259,6 +1386,68 @@ header > section:first-of-type {
 #Headernav a:hover {
     color: #922C06;
     border-bottom: 2px solid #661e04;
+}
+
+body.dark {
+  background-color: #121212;
+  color: rgb(255, 255, 255);
+}
+
+
+body.dark a {
+  color: rgb(255, 255, 255);
+}
+
+body.dark #bodykleur {
+  background: #0b0b0b;
+}
+
+body.dark .menu  {
+  color: white;
+}
+
+body.dark .menu1 {
+  background: #101010;
+}
+body.dark .menu2 {
+  background: #101010;
+}
+body.dark .menu3 {
+  background: #101010;
+}
+body.dark .menu4 {
+  background: #101010;
+}
+body.dark .menu5 {
+  background: #101010;
+}
+body.dark .menu6 {
+  background: #101010;
+}
+body.dark .menu7 {
+  background: #101010;
+}
+body.dark .menu8 {
+  background: #101010;
+}
+body.dark .menu9 {
+  background: #101010;
+}
+
+#darkToggle {
+  margin-left: 48%;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background: rgb(211, 211, 211);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+body.dark #darkToggle {
+  background: #101010;
+  color: rgb(255, 255, 255);
 }
   
 

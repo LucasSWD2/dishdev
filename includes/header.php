@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/dishdev.css">
+    <script src="script/darkmode.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -20,6 +21,8 @@
       <a href="Vacatures.php">Vacatures</a>
       <a href="openingstijden.php">Openingstijden</a>
     </nav>
+
+
     <section id="deskheaderlogos">
     <img src="images/logo_vlam_en_vlees.png" alt="Logo" class="Logo"> 
     </section>
