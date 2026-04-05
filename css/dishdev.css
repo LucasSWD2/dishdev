@@ -599,7 +599,7 @@ header {
    }
 
   #naviTekst2 {
-    grid-area: naviTekst2;
+    grid-area: tekst2;
   }
 
 
@@ -1103,8 +1103,92 @@ header {
     font-family: 'rubik', sans-serif;
   }
 
+ .gridCont {
+    width: 90vw;
+    row-gap: 0.8rem;
+  }
 
+  #naviImg1 > a > img,
+  #naviImg2 > a > img,
+  #naviImg3 > a > img,
+  #naviImg4 > a > img {
+    width: 100%;
+  }
 
+  #naviTekst1 > h1,
+  #naviTekst2 > h1,
+  #naviTekst3 > h1,
+  #naviTekst4 > h1 {
+    font-size: 1.4rem;
+  }
+
+  #naviButton1 > button,
+  #naviButton2 > button,
+  #naviButton3 > button,
+  #naviButton4 > button {
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+  }
+
+ #vacatureImg > img {
+    width: 60%;
+  }
+
+  #vacatureHead > h1 {
+    font-size: 2rem;
+  }
+
+  #vacatureTekst > p {
+    font-size: 1.1rem;
+  }
+
+  #vacatureBarKokBed > h1 {
+    font-size: 1.8rem;
+  }
+
+  #vacatureButtonTekst > p {
+    font-size: 1.1rem;
+  }
+
+  #vacatureButtons > form > button {
+    font-size: 1rem;
+    padding: 0.6rem 1.6rem;
+  }
+
+  #form > form > label {
+    font-size: 1.1rem;
+  }
+
+  #form > form > input[type="text"],
+  #form > form > input[type="email"],
+  #form > form > input[type="tel"] {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  #form > form > input[type="submit"] {
+    font-size: 1rem;
+    padding: 0.6rem 2.5rem;
+  }
+
+  #openingstijdenImg > img {
+    width: 70%;
+  }
+
+  #openingstijdenTabel > table > tbody > tr > td {
+    font-size: 1.8rem;
+    padding: 0.6rem 2rem;
+  }
+
+  #openingstijdenTabel > table > tbody > tr.weekend > td {
+    padding-top: 2rem;
+  }
+
+  #map {
+    width: 90%;
+    height: auto;
+  }
 
 }
 

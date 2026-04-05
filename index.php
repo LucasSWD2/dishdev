@@ -24,35 +24,35 @@ include "includes/header.php";
                 <h1>Reservatie</h1>
             </article>
             <section id="naviButton1">
-                <button>GO</button>
+                <button onclick="location.href='reservering.php'">GO</button>
         </section>
         <article id="desktopHomeText1">
-            <a class="homeTextLink" href="#">Wilt u zeker zijn van een gezellige lunch of een sfeervol diner? Reserveer eenvoudig uw tafel via het formulier hieronder. Of u nu met z’n tweeën komt of een speciale gelegenheid viert, wij zorgen voor een warme ontvangst en heerlijke gerechten.
+            <a class="homeTextLink" href="reservering.php">Wilt u zeker zijn van een gezellige lunch of een sfeervol diner? Reserveer eenvoudig uw tafel via het formulier hieronder. Of u nu met z’n tweeën komt of een speciale gelegenheid viert, wij zorgen voor een warme ontvangst en heerlijke gerechten.
                     Heeft u speciale wensen of dieetvoorkeuren? Laat het ons gerust weten bij uw reservatie.
                     Wij kijken ernaar uit u binnenkort te verwelkomen.</a>
                  </article>
         <section id="naviImg2">
-            <a href="#"><img src="images/menu foto.png" alt="foto menu"></a>
+            <a href="menu.php"><img src="images/menu foto.png" alt="foto menu"></a>
             </section>
             <article id="naviTekst2">
                 <h1>Menu</h1>
             </article>
             <section id="naviButton2">
-                <button>GO</button>
+                <button onclick="location.href='menu.php'">GO</button>
         </section>
         <article id="desktopHomeText2">
              <a class="homeTextLink" href="#"> Ontdek onze gerechten, bereid met verse en seizoensgebonden ingrediënten. Van verfijnde klassiekers tot verrassende specialiteiten: er is voor ieder wat wils. Laat u inspireren en geniet van pure smaken en passie op het bord.</a> </article>
         <section id="naviImg3">
-            <a href="#"><img src="images/Openingstijden foto.png" alt="foto openingstijden"></a>
+            <a href="menu.php"><img src="images/Openingstijden foto.png" alt="foto openingstijden"></a>
             </section>
             <article id="naviTekst3">
                 <h1>Openingstijden</h1>
             </article>
             <section id="naviButton3">
-                <button>GO</button>
+                <button onclick="location.href='openingstijden.php'">GO</button>
         </section>
         <article id="desktopHomeText3"> 
-            <a class="homeTextLink" href="#"> Wij heten u van harte welkom voor lunch en diner op onderstaande dagen en tijden. Bekijk hier onze actuele openingstijden en plan uw bezoek op het moment dat het u het beste uitkomt.</a>
+            <a class="homeTextLink" href="openingstijden.php"> Wij heten u van harte welkom voor lunch en diner op onderstaande dagen en tijden. Bekijk hier onze actuele openingstijden en plan uw bezoek op het moment dat het u het beste uitkomt.</a>
         </article>
         <section id="naviImg4">
             <a href="#"><img src="images/vacatures foto.png" alt="foto vacatures"></a>
@@ -61,10 +61,10 @@ include "includes/header.php";
                 <h1>Vacatures</h1>
             </article>
             <section id="naviButton4">
-                <button>GO</button>
+                <button onclick="location.href='vacatures.php'">GO</button>
         </section>
         <article id="desktopHomeText4"> 
-            <a class="homeTextLink" href="#">Wilt u deel uitmaken van ons enthousiaste team? Wij zijn altijd op zoek naar gemotiveerde collega’s met een passie voor horeca en gastvrijheid. Bekijk hier onze openstaande vacatures en solliciteer vandaag nog. </a>
+            <a class="homeTextLink" href="vacatures.php">Wilt u deel uitmaken van ons enthousiaste team? Wij zijn altijd op zoek naar gemotiveerde collega’s met een passie voor horeca en gastvrijheid. Bekijk hier onze openstaande vacatures en solliciteer vandaag nog. </a>
         </article>
     </section>
         
